@@ -1,0 +1,248 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "switch_lang": "عربي"
+  },
+  "Hero": {
+    "greeting": "Hi, I'm",
+    "name": "Adel Mounir",
+    "title": "Software Engineer",
+    "title_badge": "Full-Stack",
+    "description": "I build scalable software systems that save time and multiply your business revenue.",
+    "cta": "View My Work",
+    "resume": "Contact",
+    "scroll": "Scroll Down",
+    "stat_projects": "Projects Shipped",
+    "stat_years": "Years Experience",
+    "stat_tech": "Enterprise Systems",
+    "stat_countries": "Countries"
+  },
+  "About": {
+    "tag": "Who I Am",
+    "title_1": "I Build Systems",
+    "title_2": "That Actually Work",
+    "description_1": "I build systems that save time, automate processes, and increase sales, backed by high security standards and superior performance.",
+    "description_2": "Every line of code I write is driven by real performance, reducing costs, and increasing client ROI.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools",
+    "available": "Available for Work",
+    "location": "Egypt / Remote"
+  },
+  "Projects": {
+    "tag": "Real Work",
+    "title_1": "Projects",
+    "title_2": "Built From Scratch",
+    "description": "Not tutorial projects — each one runs in a real production environment or was built for a real client.",
+    "view_project": "View Project",
+    "view_github": "GitHub",
+    "live_badge": "Live",
+    "wip_badge": "In Progress",
+    "more_projects": "Other Ventures",
+    "items": {
+      "crazy_lister": {
+        "name": "Crazy Lister v3.5",
+        "tagline": "Amazon SP-API Management System",
+        "description": "A full automation system that reduced data entry time by 100% and controlled over 362,000 EGP in sales. Completely eliminates manual workload via SP-API.",
+        "features": [
+          "Live Sales Tracking (Stateless Sync)",
+          "Auto-listing to Amazon via SP-API",
+          "Parent-Child Product Variations",
+          "30+ Audited Technical Features",
+          "Excel Bulk Upload",
+          "AI Assistant (Qwen AI)",
+          "Detailed Reports & Dashboard"
+        ],
+        "metric": {
+          "value": "362,393 EGP",
+          "label": "Monthly Sales Output"
+        },
+        "tags": ["React 19", "FastAPI", "Python 3.12", "Amazon SP-API", "SQLite", "PyWebView", "Playwright"]
+      },
+      "apex": {
+        "name": "Apex — 60sec.shop",
+        "tagline": "Enterprise E-Commerce Platform",
+        "description": "A full Monorepo built to S1-S15 enterprise security protocols. Contains 4 apps (API, Merchant Admin, Super Admin, Store), with complete tenant isolation, immutable audit logs, and Island Architecture.",
+        "features": [
+          "Monorepo Architecture with Turborepo",
+          "4 Fully Integrated Apps",
+          "Multi-tenant with Complete Isolation",
+          "S1-S15 Security Protocols",
+          "Immutable Audit Logs",
+          "PostgreSQL + Redis + Docker",
+          "CI/CD via GitLab"
+        ],
+        "tags": ["NestJS", "Turborepo", "Bun", "Drizzle ORM", "PostgreSQL", "Redis", "Docker"]
+      },
+      "commander_os": {
+        "name": "Commander OS",
+        "tagline": "Enterprise ERP & Sales System",
+        "description": "Comprehensive enterprise resource planning (ERP) system tracking Sales, Employees, Attendance, Customers, Purchasing, Suppliers, and Inventory. Tracks real production numbers (collections reaching 544,560 EGP).",
+        "features": [
+          "Complete ERP System (7 Modules)",
+          "Sales & Collections Tracking",
+          "Attendance Management",
+          "Excel & PDF Export",
+          "Modern UI with Dark Mode",
+          "Data Sync & Analytics",
+          "Fast Record Search"
+        ],
+        "tags": ["React", "ERP", "Sales Management", "Finance"]
+      },
+      "cerebras_studio": {
+        "name": "Cerebras Dev Studio",
+        "tagline": "AI-Powered Development Environment",
+        "description": "A custom IDE operating as an ultra-fast AI coding assistant. Manages a pool of encrypted API keys with automatic rotation and sliding window rate limiting. Supports 3 permission modes and full VS Code integration.",
+        "features": [
+          "Fernet Encrypted Key Storage",
+          "Auto-rotation with Rate Limiting",
+          "3 Modes: Read-only / Guided / Autopilot",
+          "Full Streaming Support",
+          "Project File Browser",
+          "VS Code Integration",
+          "Syntax Highlighting via Prism.js"
+        ],
+        "tags": ["FastAPI", "Python", "JavaScript", "Cerebras AI", "Cryptography"]
+      },
+      "darb_almaha": {
+        "name": "DarbAlmaha — Qatar",
+        "tagline": "Bilingual Business Landing Page",
+        "description": "Professional landing page with full SEO standards for a Qatar-based cleaning company. Powered by 4 advertising platforms (Facebook, TikTok, Snapchat, GA4), with 5-type Schema.org structured data and advanced CSP security.",
+        "features": [
+          "Bilingual AR/EN Without Page Reload",
+          "4 Ad Platform Tracking",
+          "5-Type Schema.org Markup",
+          "WebP + Lazy Loading",
+          "CSP + Security Headers",
+          "Phone & WhatsApp Click Tracking",
+          "Fully Optimized SEO"
+        ],
+        "tags": ["HTML5", "CSS3", "JavaScript", "SEO", "Google Analytics", "Facebook Pixel"]
+      },
+      "ai_proxy": {
+        "name": "AI Key Proxy",
+        "tagline": "Encrypted API Key Management Server",
+        "description": "A FastAPI server acting as an encrypted proxy for Cerebras AI. Manages an AES-256 encrypted key pool with sliding window rate control and 3 automatic retry attempts on failure.",
+        "features": [
+          "AES-256 Fernet Encryption",
+          "Sliding Window RPM/TPM Control",
+          "Auto-rotation on 429 Errors",
+          "Full Streaming Support",
+          "Key Status Dashboard",
+          "3 Automatic Retries",
+          "Detailed Logging"
+        ],
+        "tags": ["FastAPI", "Python", "Cryptography", "httpx", "Async"]
+      },
+      "video_downloader": {
+        "name": "Queue Downloader",
+        "tagline": "Smart Download Tool with Queue Management",
+        "description": "A Python desktop application for downloading segmented video files (SharePoint, OneDrive) with full queue control. Uses 10 concurrent fragments with infinite retry and automatic post-download actions.",
+        "features": [
+          "Manageable Download Queue",
+          "10 Concurrent Fragments",
+          "Infinite Retry on Failure",
+          "SharePoint Cookie Authentication",
+          "Progress Bar with Speed Display",
+          "Post-Download Actions (Shutdown/Sleep)",
+          "Custom File Renaming"
+        ],
+        "tags": ["Python", "Tkinter", "yt-dlp", "ffmpeg", "Threading"]
+      },
+      "alyusr": {
+        "name": "Al Yusr System",
+        "tagline": "Pastirma Factory Management System",
+        "description": "A complete enterprise management system for Al Yusr Pastirma Factory. Built with React + TypeScript (94% TypeScript coverage) and Vite, covering inventory management, production tracking, and financial accounting.",
+        "features": [
+          "Inventory & Production Management",
+          "Integrated Accounting System",
+          "React + TypeScript Interface",
+          "94% TypeScript Coverage",
+          "Detailed Reports",
+          "Built with Vite for Performance",
+          "Full Arabic RTL Design"
+        ],
+        "tags": ["React", "TypeScript", "Vite", "Enterprise", "CSS"]
+      },
+      "kitvet": {
+        "name": "Kitvet",
+        "tagline": "Premium Domain Sales Page",
+        "description": "A high-conversion professional landing page displaying the Kitvet.com domain for sale. Features a modern design (High-authority asset for sale) and rapid integration with direct broker chat.",
+        "features": [
+          "High-Conversion Sales Design",
+          "Live Broker Chat Support",
+          "Modern Interface & Premium Colors",
+          "Ultra-Fast Loading",
+          "Responsive Design",
+          "SEO Ready",
+          "Direct WhatsApp Link"
+        ],
+        "tags": ["HTML5", "CSS3", "JavaScript", "Landing Page"]
+      },
+      "mounir_data_gen": {
+        "name": "Mounir Data Gen",
+        "tagline": "Automated Data Generation System",
+        "description": "An advanced engineering tool for automated data generation, designed to automate testing scenarios and prepare massive data sets (Mock/Seeding) for comprehensive testing environments.",
+        "features": [
+          "Massive Data Auto-generation",
+          "Test Scenario Automation",
+          "Multi-format Data Export",
+          "Advanced Mock Databases",
+          "High Performance Seeding",
+          "Nested JSON Structures Support"
+        ],
+        "tags": ["Python", "Data Engineering", "Automation", "Testing"]
+      }
+    }
+  },
+  "Skills": {
+    "tag": "Tech Arsenal",
+    "title_1": "What I",
+    "title_2": "Master",
+    "description": "Skills proven through real production projects, not just training courses.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Databases",
+      "devops": "Infrastructure",
+      "ai": "AI & Automation"
+    },
+    "levels": {
+      "core": "Core Arsenal",
+      "proficient": "Proficient In",
+      "familiar": "Familiar With"
+    }
+  },
+  "Contact": {
+    "tag": "Get In Touch",
+    "ready_to_start": "Ready to work together",
+    "lets_talk_title": "Let's Build",
+    "lets_talk_span": "Something Real",
+    "description": "Have a project that needs an engineer who understands complex systems? Looking for Amazon SP-API expertise or enterprise platform experience? Let's talk.",
+    "email": "adel.mounir@60sec.shop",
+    "phone": "+20 109 688 8859",
+    "whatsapp": "https://wa.me/201096888859",
+    "github": "https://github.com/adelfree2023-dev",
+    "send": "Send Message",
+    "form": {
+      "full_name_label": "Full Name",
+      "email_label": "Email Address",
+      "message_label": "Project Details or Request",
+      "name_placeholder": "Your name here",
+      "email_placeholder": "you@domain.com",
+      "message_placeholder": "Tell me about your project — what do you want to build?",
+      "status_success": "Message sent successfully! I'll get back to you soon.",
+      "status_error": "Oops! Something went wrong. Please try again.",
+      "status_loading": "Sending..."
+    },
+    "footer": {
+      "copyright": "Adel Mounir",
+      "all_rights_reserved": "All rights reserved",
+      "built_with": "Built with Next.js + Tailwind"
+    }
+  }
+}

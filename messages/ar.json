@@ -1,0 +1,248 @@
+{
+  "Navigation": {
+    "home": "الرئيسية",
+    "about": "عني",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "contact": "تواصل معي",
+    "switch_lang": "English"
+  },
+  "Hero": {
+    "greeting": "مرحباً، أنا",
+    "name": "عادل منير",
+    "title": "مهندس برمجيات",
+    "title_badge": "Full-Stack",
+    "description": "أبني أنظمة برمجية قابلة للتوسع توفر وقت الشركات وتضاعف أرباحها.",
+    "cta": "شاهد المشاريع",
+    "resume": "تواصل معي",
+    "scroll": "مرر للأسفل",
+    "stat_projects": "مشروع منتهي",
+    "stat_years": "سنوات خبرة",
+    "stat_tech": "نظام مؤسسي",
+    "stat_countries": "دول عمل"
+  },
+  "About": {
+    "tag": "من أنا",
+    "title_1": "أبني الأنظمة",
+    "title_2": "التي تعمل",
+    "description_1": "أبني أنظمة توفر الوقت والجهد وتزيد المبيعات، مبنية على معايير أمان عالية وأداء فائق.",
+    "description_2": "كل سطر كود أكتبه موجه نحو الأداء الحقيقي، وتقليل التكاليف، وزيادة الـ ROI الخاص بالعميل.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "الأدوات",
+    "available": "متاح للعمل",
+    "location": "مصر / عمل عن بعد"
+  },
+  "Projects": {
+    "tag": "الأعمال الحقيقية",
+    "title_1": "مشاريع",
+    "title_2": "بدأتها من الصفر",
+    "description": "ليست مشاريع تجريبية — كل واحد يعمل في بيئة إنتاج حقيقية أو بُني لعميل حقيقي.",
+    "view_project": "عرض المشروع",
+    "view_github": "GitHub",
+    "live_badge": "Live",
+    "wip_badge": "قيد التطوير",
+    "more_projects": "المزيد من المشاريع",
+    "items": {
+      "crazy_lister": {
+        "name": "Crazy Lister v3.5",
+        "tagline": "نظام إدارة وأتمتة أمازون",
+        "description": "نظام أتمتة متكامل خفض وقت إدخال البيانات بنسبة 100% وتحكم في مبيعات تتجاوز 362 ألف جنيه. يزيل العبء البشري بالكامل عبر SP-API.",
+        "features": [
+          "تتبع مباشر للمبيعات (Live Sync)",
+          "رفع تلقائي إلى أمازون عبر SP-API",
+          "دعم Parent-Child Variations",
+          "٣٠+ ميزة تقنية مدققة",
+          "استيراد Excel بالجملة",
+          "مساعد ذكاء اصطناعي (Qwen AI)",
+          "تقارير مفصلة ولوحة تحكم"
+        ],
+        "metric": {
+          "value": "362,393 EGP",
+          "label": "مبيعات شهر واحد / Monthly Sales"
+        },
+        "tags": ["React 19", "FastAPI", "Python 3.12", "Amazon SP-API", "SQLite", "PyWebView", "Playwright"]
+      },
+      "apex": {
+        "name": "Apex — 60sec.shop",
+        "tagline": "منصة تجارة إلكترونية مؤسسية",
+        "description": "Monorepo كامل مبني على بروتوكولات أمان S1-S15 المؤسسية. يحتوي على ٤ تطبيقات (API, Merchant Admin, Super Admin, Store)، مع عزل المستأجرين (Multi-tenant)، سجلات مراجعة غير قابلة للتغيير، وبنية Island Architecture.",
+        "features": [
+          "معمارية Monorepo بـ Turborepo",
+          "٤ تطبيقات متكاملة",
+          "Multi-tenant مع عزل كامل",
+          "بروتوكولات أمان S1-S15",
+          "سجلات مراجعة غير قابلة للتغيير",
+          "PostgreSQL + Redis + Docker",
+          "CI/CD عبر GitLab"
+        ],
+        "tags": ["NestJS", "Turborepo", "Bun", "Drizzle ORM", "PostgreSQL", "Redis", "Docker"]
+      },
+      "commander_os": {
+        "name": "Commander OS",
+        "tagline": "نظام ERP لإدارة المبيعات والتوريدات",
+        "description": "نظام إدارة موارد مؤسسي شامل (ERP) يتتبع المبيعات، الموظفين، الحضور والانصراف، العملاء، المشتريات، الموردين، والمخازن. يتتبع أرقام إنتاج حقيقية (تحصيل يبلغ ٥٤٤,٥٦٠ جنيه).",
+        "features": [
+          "نظام ERP متكامل (7 وحدات)",
+          "تتبع التحصيل والمبيعات",
+          "إدارة الحضور والانصراف",
+          "تصدير Excel و PDF",
+          "واجهة مستخدم حديثة بـ Dark Mode",
+          "مزامنة وتحليل البيانات",
+          "بحث سريع في السجلات"
+        ],
+        "tags": ["React", "ERP", "Sales Management", "Finance"]
+      },
+      "cerebras_studio": {
+        "name": "Cerebras Dev Studio",
+        "tagline": "بيئة تطوير مدعومة بالذكاء الاصطناعي",
+        "description": "IDE مخصص يعمل كمساعد برمجي فائق السرعة. يدير مجموعة من مفاتيح API المشفرة مع تدوير تلقائي وحدود معدل نافذة انزلاقية. يدعم ٣ أوضاع صلاحيات وتكامل كامل مع VS Code.",
+        "features": [
+          "تشفير المفاتيح بـ Fernet",
+          "تدوير تلقائي مع تحديد معدل",
+          "٣ أوضاع: قراءة / إرشاد / طيار آلي",
+          "Streaming فائق السرعة",
+          "مستعرض ملفات المشروع",
+          "تكامل مع VS Code",
+          "Syntax Highlighting بـ Prism.js"
+        ],
+        "tags": ["FastAPI", "Python", "JavaScript", "Cerebras AI", "Cryptography"]
+      },
+      "darb_almaha": {
+        "name": "درب المها — Qatar",
+        "tagline": "موقع تجاري ثنائي اللغة لشركة تنظيف",
+        "description": "Landing Page احترافي ثنائي اللغة لشركة درب المها بقطر. يعمل بـ ٤ منصات إعلانية (Facebook, TikTok, Snapchat, GA4)، مع Schema.org من ٥ أنواع، تتبع مكالمات الهاتف والواتساب، وأمان CSP متقدم.",
+        "features": [
+          "ثنائي اللغة AR/EN بدون إعادة تحميل",
+          "تتبع ٤ منصات إعلانية",
+          "Schema.org من ٥ أنواع",
+          "WebP + Lazy Loading",
+          "CSP + Security Headers",
+          "تتبع الهاتف والواتساب",
+          "SEO محسّن بالكامل"
+        ],
+        "tags": ["HTML5", "CSS3", "JavaScript", "SEO", "Google Analytics", "Facebook Pixel"]
+      },
+      "ai_proxy": {
+        "name": "AI Key Proxy",
+        "tagline": "خادم وكيل ذكي لمفاتيح API",
+        "description": "خادم FastAPI يعمل كـ Proxy مشفر لـ Cerebras AI. يدير مجموعة من المفاتيح المشفرة بـ AES-256 مع نافذة انزلاقية للتحكم في المعدل، وإعادة محاولة تلقائية ٣ مرات عند الفشل.",
+        "features": [
+          "تشفير AES-256 (Fernet)",
+          "نافذة انزلاقية لـ RPM/TPM",
+          "تدوير تلقائي عند الخطأ 429",
+          "دعم Streaming كامل",
+          "لوحة تحكم حالة المفاتيح",
+          "إعادة محاولة ٣ مرات",
+          "Logging مفصل"
+        ],
+        "tags": ["FastAPI", "Python", "Cryptography", "httpx", "Async"]
+      },
+      "video_downloader": {
+        "name": "Queue Downloader",
+        "tagline": "أداة تحميل ذكية بنظام قائمة انتظار",
+        "description": "تطبيق Python سطح مكتب لتحميل مقاطع الفيديو المجزأة (SharePoint, OneDrive) بتحكم كامل في قائمة الانتظار. يستخدم ١٠ تجزئات متزامنة مع إعادة محاولة لانهائية ودعم تلقائي لأفعال ما بعد التحميل.",
+        "features": [
+          "قائمة انتظار قابلة للإدارة",
+          "١٠ تجزئات متزامنة",
+          "إعادة محاولة لانهائية",
+          "SharePoint Cookie Auth",
+          "شريط تقدم مع السرعة",
+          "إجراء تلقائي (إغلاق/نوم)",
+          "إعادة تسمية الملفات"
+        ],
+        "tags": ["Python", "Tkinter", "yt-dlp", "ffmpeg", "Threading"]
+      },
+      "alyusr": {
+        "name": "نظام اليسر",
+        "tagline": "نظام إدارة مصنع البسطرمة",
+        "description": "نظام إدارة مؤسسي متكامل لمصنع اليسر للبسطرمة. مبني بـ React + TypeScript (94% TypeScript) مع Vite، يتضمن إدارة المخزون والإنتاج والحسابات.",
+        "features": [
+          "إدارة المخزون والإنتاج",
+          "نظام محاسبي متكامل",
+          "واجهة React + TypeScript",
+          "94% TypeScript Coverage",
+          "تقارير مفصلة",
+          "مبني بـ Vite للأداء",
+          "تصميم عربي RTL"
+        ],
+        "tags": ["React", "TypeScript", "Vite", "Enterprise", "CSS"]
+      },
+      "kitvet": {
+        "name": "Kitvet",
+        "tagline": "موقع مميز لعرض دومين للبيع",
+        "description": "صفحة هبوط احترافية عالية التحويل لعرض دومين Kitvet.com للبيع. تتميز بتصميم عصري (High-authority asset for sale) وتكامل سريع مع محادثات وسطاء البيع المباشرة.",
+        "features": [
+          "تصميم عالي التحويل للبيع",
+          "دعم المحادثة المباشرة",
+          "واجهة حديثة بألوان احترافية",
+          "سرعة تحميل فائقة",
+          "Responsive Design",
+          "SEO جاهز",
+          "ربط واتساب مباشر"
+        ],
+        "tags": ["HTML5", "CSS3", "JavaScript", "Landing Page"]
+      },
+      "mounir_data_gen": {
+        "name": "Mounir Data Gen",
+        "tagline": "نظام توليد البيانات التلقائي",
+        "description": "أداة هندسية متقدمة لتوليد البيانات تلقائياً، مصممة لأتمتة المهام وتجهيز حزم البيانات الضخمة (Mock/Seeding) للاختبارات الهندسية الشاملة.",
+        "features": [
+          "توليد بيانات ضخمة تلقائياً",
+          "أتمتة سيناريوهات الاختبار",
+          "تصدير البيانات بصيغ متعددة",
+          "قواعد بيانات وهمية متقدمة",
+          "أداء فائق للبيانات الضخمة",
+          "دعم الهياكل المعقدة (Nested JSON)"
+        ],
+        "tags": ["Python", "Data Engineering", "Automation", "Testing"]
+      }
+    }
+  },
+  "Skills": {
+    "tag": "الترسانة التقنية",
+    "title_1": "ما",
+    "title_2": "أتقنه",
+    "description": "مهارات مُثبتة عبر مشاريع إنتاجية حقيقية، وليس مجرد دورات تدريبية.",
+    "categories": {
+      "frontend": "واجهات المستخدم",
+      "backend": "الأنظمة الخلفية",
+      "database": "قواعد البيانات",
+      "devops": "البنية التحتية",
+      "ai": "الذكاء الاصطناعي"
+    },
+    "levels": {
+      "core": "الأسلحة الأساسية",
+      "proficient": "متمكن من",
+      "familiar": "على دراية بـ"
+    }
+  },
+  "Contact": {
+    "tag": "تواصل معي",
+    "ready_to_start": "جاهز للعمل معاً",
+    "lets_talk_title": "لنبني",
+    "lets_talk_span": "شيئاً حقيقياً",
+    "description": "لديك مشروع يحتاج لمهندس يفهم الأنظمة المعقدة؟ أو تبحث عن خبرة في Amazon SP-API أو بناء منصات مؤسسية؟ تكلم معي.",
+    "email": "adel.mounir@60sec.shop",
+    "phone": "+20 109 688 8859",
+    "whatsapp": "https://wa.me/201096888859",
+    "github": "https://github.com/adelfree2023-dev",
+    "send": "إرسال الرسالة",
+    "form": {
+      "full_name_label": "الاسم الكامل",
+      "email_label": "البريد الإلكتروني",
+      "message_label": "تفاصيل المشروع أو الطلب",
+      "name_placeholder": "اسمك هنا",
+      "email_placeholder": "بريدك@domain.com",
+      "message_placeholder": "أخبرني عن مشروعك، ما الذي تريد بناءه؟",
+      "status_success": "تم إرسال رسالتك بنجاح! سأتواصل معك قريباً.",
+      "status_error": "عذراً، حدث خطأ. يرجى المحاولة مرة أخرى.",
+      "status_loading": "جاري الإرسال..."
+    },
+    "footer": {
+      "copyright": "عادل منير",
+      "all_rights_reserved": "جميع الحقوق محفوظة",
+      "built_with": "مبني بـ Next.js + Tailwind"
+    }
+  }
+}

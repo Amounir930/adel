@@ -69,16 +69,18 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -40 }}
             transition={{ duration: 0.4, ease: 'easeInOut' }}
-            className="fixed top-0 left-0 right-0 z-[110] bg-gradient-to-r from-[#010118]/95 via-[#0d0d2b]/98 to-[#010118]/95 backdrop-blur-md border-b border-[#06B6D4]/25 text-white text-xs font-semibold py-2 px-4 flex items-center justify-between gap-4 h-[40px] overflow-hidden"
+            className="fixed top-0 left-0 right-0 z-[110] bg-gradient-to-r from-[#0b001a] via-[#14002e] to-[#0b001a] backdrop-blur-md border-b border-[#8400FF]/35 text-white text-xs font-semibold py-2 px-4 flex items-center justify-between gap-4 h-[40px] overflow-hidden"
           >
             <div className="flex-1 flex items-center justify-center gap-3 text-center overflow-hidden">
-              <span className="inline-flex w-1.5 h-1.5 rounded-full bg-[#06B6D4] animate-pulse shrink-0" />
+              <span className="inline-flex w-1.5 h-1.5 rounded-full bg-[#00FFFF] animate-pulse shrink-0" style={{ boxShadow: '0 0 8px #00FFFF' }} />
               <span className="text-[var(--text-primary)] truncate text-[11px] sm:text-xs">
                 {t('announcement')}
               </span>
               <a
-                href="#contact"
-                className="shrink-0 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-[#06B6D4] to-[#7C3AED] hover:from-[#06B6D4]/80 hover:to-[#7C3AED]/80 text-white text-[10px] font-black uppercase tracking-wider transition-all shadow-md hover:shadow-cyan-500/30"
+                href="https://wa.me/201096888859"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 px-2.5 py-0.5 rounded-full bg-[#00FFFF] hover:bg-[#00E5E5] text-black text-[10px] font-black uppercase tracking-wider transition-all shadow-md shadow-[#00FFFF]/20"
               >
                 {t('announcement_action')}
               </a>

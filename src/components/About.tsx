@@ -6,8 +6,9 @@ import { HiCode, HiServer, HiChip, HiCheckCircle, HiLocationMarker } from 'react
 import {
   SiReact, SiNextdotjs, SiTypescript, SiPython, SiNodedotjs,
   SiFastapi, SiPostgresql, SiDocker, SiTailwindcss, SiDotnet,
-  SiElectron, SiPrisma, SiRedis, SiAmazon
+  SiElectron, SiPrisma, SiRedis
 } from 'react-icons/si';
+import { FaAmazon } from 'react-icons/fa';
 
 const SKILL_CATEGORIES = [
   {
@@ -37,7 +38,7 @@ const SKILL_CATEGORIES = [
     key: 'tools',
     color: '#F59E0B',
     skills: [
-      { icon: SiAmazon, name: 'Amazon SP-API' },
+      { icon: FaAmazon, name: 'Amazon SP-API' },
       { icon: SiPostgresql, name: 'PostgreSQL / SQLite' },
       { icon: SiRedis, name: 'Redis / MongoDB' },
       { icon: SiDocker, name: 'Docker / CI/CD' },

@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { motion, useMotionValue, useSpring, useMotionTemplate } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { HiDownload, HiCode, HiServer, HiChip } from 'react-icons/hi';
@@ -20,6 +20,7 @@ export default function Hero() {
   const mouseY = useMotionValue(0);
   const spotX = useSpring(mouseX, { stiffness: 80, damping: 20 });
   const spotY = useSpring(mouseY, { stiffness: 80, damping: 20 });
+  const background = useMotionTemplate`radial-gradient(700px circle at ${spotX}px ${spotY}px, rgba(6,182,212,0.07), transparent 70%)`;
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -39,9 +40,7 @@ export default function Hero() {
       {/* Spotlight */}
       <motion.div
         className="pointer-events-none fixed inset-0 z-10"
-        style={{
-          background: `radial-gradient(700px circle at ${spotX}px ${spotY}px, rgba(6,182,212,0.07), transparent 70%)`,
-        }}
+        style={{ background }}
       />
 
       {/* Animated Blobs */}

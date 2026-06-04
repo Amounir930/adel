@@ -13,6 +13,37 @@ const STATS = [
   { key: 'stat_countries', value: '3' },
 ];
 
+const BACKGROUND_CODE_SNIPPETS = [
+  {
+    code: `const api = new AmazonSPAPI({\n  sellerId: 'A31...',\n  region: 'EU'\n});\nawait api.listings.upload(item);`,
+    top: '12%',
+    left: '5%',
+    rotate: -10,
+    delay: 0,
+  },
+  {
+    code: `def dfs(node):\n    visited.add(node)\n    for neighbor in node.edges:\n        if neighbor not in visited:\n            dfs(neighbor)`,
+    top: '68%',
+    left: '4%',
+    rotate: 12,
+    delay: 1.5,
+  },
+  {
+    code: `export default async function sitemap() {\n  const urls = await db.pages.findMany();\n  return urls.map(u => u.url);\n}`,
+    top: '15%',
+    right: '6%',
+    rotate: 8,
+    delay: 3,
+  },
+  {
+    code: `class CleanArchitecture:\n    def __init__(self, use_case):\n        self.use_case = use_case\n    def run(self, req):\n        return self.use_case.execute(req)`,
+    top: '72%',
+    right: '5%',
+    rotate: -8,
+    delay: 4.5,
+  }
+];
+
 export default function Hero() {
   const t = useTranslations('Hero');
   const containerRef = useRef<HTMLDivElement>(null);
@@ -47,6 +78,36 @@ export default function Hero() {
       <div className="blob blob-cyan w-[600px] h-[600px] -top-40 -left-40 z-0" />
       <div className="blob blob-violet w-[500px] h-[500px] top-1/2 -right-40 z-0" style={{ animationDelay: '3s' }} />
       <div className="blob blob-gold w-[300px] h-[300px] bottom-20 left-1/3 z-0" style={{ animationDelay: '5s', opacity: 0.15 }} />
+
+      {/* Floating Code Snippets */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none hidden lg:block select-none z-10">
+        {BACKGROUND_CODE_SNIPPETS.map((snippet, idx) => (
+          <motion.pre
+            key={idx}
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ 
+              y: [0, -20, 0],
+              opacity: [0.03, 0.08, 0.03],
+            }}
+            transition={{
+              duration: 8,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: snippet.delay,
+            }}
+            style={{
+              position: 'absolute',
+              top: snippet.top,
+              left: snippet.left,
+              right: snippet.right,
+              transform: `rotate(${snippet.rotate}deg)`,
+            }}
+            className="font-mono text-[10px] md:text-xs text-cyan-400/50 leading-relaxed bg-[var(--bg-surface)]/20 p-4 rounded-xl border border-[var(--border-color)] backdrop-blur-[2px]"
+          >
+            <code>{snippet.code}</code>
+          </motion.pre>
+        ))}
+      </div>
 
       {/* Main Content */}
       <div className="relative z-20 max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-20">

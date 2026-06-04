@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import "./../globals.css";
 import WhatsAppButton from '@/components/WhatsAppButton';
+import TerminalWidget from '@/components/TerminalWidget';
 
 
 const geistSans = Geist({
@@ -56,6 +57,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
           <WhatsAppButton />
+          <TerminalWidget />
         </NextIntlClientProvider>
       </body>
     </html>

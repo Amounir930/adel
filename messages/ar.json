@@ -5,7 +5,9 @@
     "projects": "المشاريع",
     "skills": "المهارات",
     "contact": "تواصل معي",
-    "switch_lang": "English"
+    "switch_lang": "English",
+    "announcement": "متاح حالياً للمشاريع البرمجية وعقود العمل الحر والاستشارات التقنية — تواصل معي الآن!",
+    "announcement_action": "تواصل الآن"
   },
   "Hero": {
     "greeting": "مرحباً، أنا",

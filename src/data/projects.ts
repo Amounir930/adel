@@ -24,7 +24,7 @@ export const PROJECTS: ProjectDef[] = [
     category: 'saas',
     color: '#06B6D4',
     accentColor: '#0891B2',
-    live: 'https://mostaql.com/portfolio/3556172-تصميم-وبرمجة-صفحة-هبوط-متعددة-اللغات-مع-توجيه-ذكي-لموقع-60secshop',
+    live: 'https://60sec.shop/',
     images: ['/projects/60secshop_1.png'],
   },
   {
@@ -48,7 +48,7 @@ export const PROJECTS: ProjectDef[] = [
     category: 'websites',
     color: '#3B82F6',
     accentColor: '#2563EB',
-    live: 'https://mostaql.com/portfolio/3485299-صفحة-هبوط-landing-page-احترافية-ثنائية-اللغة-شركة-درب-المها-قطر',
+    live: 'https://darbalmaha.com/',
     images: ['/projects/darbalmaha.png', '/projects/landing_page_1.png'],
   },
   {
@@ -71,7 +71,7 @@ export const PROJECTS: ProjectDef[] = [
     category: 'websites',
     color: '#3B82F6',
     accentColor: '#2563EB',
-    live: 'https://mostaql.com/portfolio/3502334-تصميم-صفحة-هبوط-استراتيجية-لبيع-نطاق-kitvet-com-veterinary-tech',
+    live: 'https://kitvet.com/',
     images: ['/projects/kitvet.png', '/projects/kitvet_1.png'],
   },
   {
@@ -87,7 +87,7 @@ export const PROJECTS: ProjectDef[] = [
     category: 'saas',
     color: '#8B5CF6',
     accentColor: '#7C3AED',
-    live: 'https://mostaql.com/portfolio/3556254-تصميم-وتطوير-لوحة-تحكم-xp-black-لإدارة-الحسابات-وأتمتة-الألعاب',
+    live: 'https://xp-black.com/',
     images: ['/projects/xp_black_dashboard_1.png'],
   },
   {
@@ -111,7 +111,7 @@ export const PROJECTS: ProjectDef[] = [
     category: 'websites',
     color: '#06B6D4',
     accentColor: '#0891B2',
-    live: 'https://mostaql.com/portfolio/3556185-تصميم-وتطوير-موقع-إلكتروني-لمكتب-أحلى-مكان-للاستقدام-والخدمات-المنزلية',
+    live: 'https://ahla-makan.com/',
     images: ['/projects/ahla_makan_1.png'],
   },
   {
@@ -119,7 +119,7 @@ export const PROJECTS: ProjectDef[] = [
     category: 'websites',
     color: '#F59E0B',
     accentColor: '#D97706',
-    live: 'https://mostaql.com/portfolio/3556154-تصميم-وتطوير-موقع-تفاعلي-لشركة-أرض-الضيافة-للخدمات-المنزلية-بقطر',
+    live: 'https://ard-aldyafa.com/',
     images: ['/projects/ard_al_diafa_1.png'],
   },
   {
@@ -175,7 +175,7 @@ export const PROJECTS: ProjectDef[] = [
     category: 'websites',
     color: '#3B82F6',
     accentColor: '#2563EB',
-    live: 'https://mostaql.com/portfolio/3502299-premium-full-stack-developer-branding-portfolio',
+    live: 'https://adel.60sec.shop/',
     images: ['/projects/premium_fullstack_developer_branding_portfolio_1.png'],
   }
 ];

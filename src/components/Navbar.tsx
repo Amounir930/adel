@@ -15,9 +15,18 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [showAnnouncement, setShowAnnouncement] = useState(false);
 
   useEffect(() => {
     setMounted(true);
+    try {
+      const dismissed = localStorage.getItem('announcement-dismissed');
+      if (!dismissed) {
+        setShowAnnouncement(true);
+      }
+    } catch (e) {
+      setShowAnnouncement(true);
+    }
   }, []);
 
   useEffect(() => {
@@ -31,6 +40,15 @@ export default function Navbar() {
     router.replace(pathname, { locale: nextLocale });
   };
 
+  const dismissAnnouncement = () => {
+    try {
+      localStorage.setItem('announcement-dismissed', 'true');
+    } catch (e) {
+      // ignore errors in sandboxed/incognito contexts
+    }
+    setShowAnnouncement(false);
+  };
+
   const navLinks = [
     { name: t('home'), href: '#home' },
     { name: t('about'), href: '#about' },
@@ -39,14 +57,50 @@ export default function Navbar() {
     { name: t('contact'), href: '#contact' },
   ];
 
+  const isAnnouncementVisible = mounted && showAnnouncement && !isOpen;
+
   return (
     <>
+      {/* Announcement Bar */}
+      <AnimatePresence>
+        {isAnnouncementVisible && (
+          <motion.div
+            initial={{ opacity: 0, y: -40 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -40 }}
+            transition={{ duration: 0.4, ease: 'easeInOut' }}
+            className="fixed top-0 left-0 right-0 z-[110] bg-gradient-to-r from-[#010118]/95 via-[#0d0d2b]/98 to-[#010118]/95 backdrop-blur-md border-b border-[#06B6D4]/25 text-white text-xs font-semibold py-2 px-4 flex items-center justify-between gap-4 h-[40px] overflow-hidden"
+          >
+            <div className="flex-1 flex items-center justify-center gap-3 text-center overflow-hidden">
+              <span className="inline-flex w-1.5 h-1.5 rounded-full bg-[#06B6D4] animate-pulse shrink-0" />
+              <span className="text-[var(--text-primary)] truncate text-[11px] sm:text-xs">
+                {t('announcement')}
+              </span>
+              <a
+                href="#contact"
+                className="shrink-0 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-[#06B6D4] to-[#7C3AED] hover:from-[#06B6D4]/80 hover:to-[#7C3AED]/80 text-white text-[10px] font-black uppercase tracking-wider transition-all shadow-md hover:shadow-cyan-500/30"
+              >
+                {t('announcement_action')}
+              </a>
+            </div>
+            <button
+              onClick={dismissAnnouncement}
+              className="p-1 hover:bg-white/10 rounded-lg transition-colors text-white/50 hover:text-white shrink-0"
+              aria-label="Dismiss announcement"
+            >
+              <HiX className="w-3.5 h-3.5" />
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <nav
         className={clsx(
-          'fixed top-0 left-0 right-0 z-[100] transition-all duration-500 px-6 py-5',
+          'fixed left-0 right-0 z-[100] transition-all duration-500 px-6',
+          isAnnouncementVisible ? 'top-[40px]' : 'top-0',
           scrolled
             ? 'bg-[var(--bg-base)]/85 backdrop-blur-xl border-b border-[var(--border-color)] py-4'
-            : 'bg-transparent'
+            : 'bg-transparent py-5'
         )}
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">

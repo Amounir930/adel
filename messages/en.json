@@ -5,7 +5,9 @@
     "projects": "Projects",
     "skills": "Skills",
     "contact": "Contact",
-    "switch_lang": "عربي"
+    "switch_lang": "عربي",
+    "announcement": "Currently available for software development contracts, freelance work, and technical consultation — Let's talk!",
+    "announcement_action": "Get in touch"
   },
   "Hero": {
     "greeting": "Hi, I'm",

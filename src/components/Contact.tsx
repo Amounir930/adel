@@ -131,78 +131,164 @@ export default function Contact() {
             </motion.div>
           </motion.div>
 
-          {/* Right — Form */}
+          {/* Right — Form (IDE Styled) */}
           <motion.form
             variants={container}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
             onSubmit={handleSubmit}
-            className="card p-6 md:p-8 space-y-5"
+            className="card p-0 overflow-hidden relative border border-[var(--border-color)] bg-[var(--bg-surface)] shadow-2xl flex flex-col"
           >
-            <motion.div variants={item}>
-              <label className="block text-sm font-bold text-[var(--text-secondary)] mb-2 uppercase tracking-widest text-xs text-center md:text-start">
-                {t('form.full_name_label')}
-              </label>
-              <input
-                name="name"
-                type="text"
-                required
-                placeholder={t('form.name_placeholder')}
-                className="w-full px-4 py-3.5 rounded-xl bg-[var(--bg-input)] border border-[var(--border-input)] shadow-sm text-[var(--text-primary)] text-sm outline-none transition-all focus:border-cyan-500/80 focus:ring-1 focus:ring-cyan-500/50 placeholder:text-[var(--text-placeholder)] text-center md:text-start"
-              />
-            </motion.div>
+            {/* IDE Window Title Bar */}
+            <div className="bg-slate-950/60 px-4 py-3 border-b border-[var(--border-color)] flex items-center justify-between select-none">
+              <div className="flex items-center gap-1.5">
+                <div className="w-3 h-3 rounded-full bg-red-500/70" />
+                <div className="w-3 h-3 rounded-full bg-yellow-500/70" />
+                <div className="w-3 h-3 rounded-full bg-green-500/70" />
+              </div>
+              <div className="flex items-center gap-2 text-xs font-mono text-slate-400">
+                <span className="text-cyan-400">⚡</span>
+                <span>contact_form.ts</span>
+              </div>
+              <div className="text-[10px] font-mono text-slate-500">
+                UTF-8
+              </div>
+            </div>
 
-            <motion.div variants={item}>
-              <label className="block text-sm font-bold text-[var(--text-secondary)] mb-2 uppercase tracking-widest text-xs text-center md:text-start">
-                {t('form.email_label')}
-              </label>
-              <input
-                name="email"
-                type="email"
-                required
-                placeholder={t('form.email_placeholder')}
-                dir="ltr"
-                className="w-full px-4 py-3.5 rounded-xl bg-[var(--bg-input)] border border-[var(--border-input)] shadow-sm text-[var(--text-primary)] text-sm outline-none transition-all focus:border-cyan-500/80 focus:ring-1 focus:ring-cyan-500/50 placeholder:text-[var(--text-placeholder)] text-center md:text-start"
-              />
-            </motion.div>
+            {/* Code Window Body */}
+            <div className="p-4 sm:p-6 md:p-8 space-y-5 bg-slate-950/20 font-mono text-xs sm:text-sm">
+              {/* Header Comment */}
+              <div className="flex items-start gap-2.5 select-none">
+                <span className="text-slate-600 w-5 text-right shrink-0">01</span>
+                <span className="text-slate-500">// Initialize project consultation request</span>
+              </div>
 
-            <motion.div variants={item}>
-              <label className="block text-sm font-bold text-[var(--text-secondary)] mb-2 uppercase tracking-widest text-xs text-center md:text-start">
-                {t('form.message_label')}
-              </label>
-              <textarea
-                name="message"
-                required
-                rows={4}
-                placeholder={t('form.message_placeholder')}
-                className="w-full px-4 py-3.5 rounded-xl bg-[var(--bg-input)] border border-[var(--border-input)] shadow-sm text-[var(--text-primary)] text-sm outline-none transition-all focus:border-cyan-500/80 focus:ring-1 focus:ring-cyan-500/50 placeholder:text-[var(--text-placeholder)] resize-none text-center md:text-start"
-              />
-            </motion.div>
-
-            <motion.button
-              variants={item}
-              type="submit"
-              disabled={formStatus === 'loading'}
-              whileHover={formStatus !== 'loading' ? { scale: 1.02 } : {}}
-              whileTap={formStatus !== 'loading' ? { scale: 0.98 } : {}}
-              className={`btn-primary w-full py-4 text-base font-bold rounded-xl transition-all ${formStatus === 'loading' ? 'opacity-70 cursor-not-allowed' : ''}`}
-            >
-              {formStatus === 'loading' ? t('form.status_loading') : `${t('send')} →`}
-            </motion.button>
-
-            <motion.div variants={item} className="h-6">
-              {formStatus === 'success' && (
-                <p className="text-center text-sm font-semibold text-emerald-500">
-                  {t('form.status_success')}
+              <div className="flex items-start gap-2.5 select-none">
+                <span className="text-slate-600 w-5 text-right shrink-0">02</span>
+                <p className="text-indigo-400">
+                  <span className="text-purple-400">const</span> <span className="text-blue-400">projectRequest</span> = <span className="text-slate-400">{'{'}</span>
                 </p>
-              )}
-              {formStatus === 'error' && (
-                <p className="text-center text-sm font-semibold text-rose-500">
-                  {t('form.status_error')}
+              </div>
+
+              {/* Name Field */}
+              <div className="flex items-start gap-2.5">
+                <span className="text-slate-600 w-5 text-right shrink-0 pt-3 select-none">03</span>
+                <div className="flex-1 flex flex-col gap-1 py-1 px-3 rounded-lg bg-slate-900/60 border border-white/5 focus-within:border-cyan-500/40 transition-colors">
+                  <div className="flex items-center justify-between text-[10px] text-slate-500 select-none">
+                    <span>// {t('form.full_name_label')}</span>
+                    <span>string</span>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-1.5">
+                    <span className="text-amber-400/80 shrink-0">name:</span>
+                    <input
+                      name="name"
+                      type="text"
+                      required
+                      placeholder={`"${t('form.name_placeholder')}"`}
+                      className="flex-1 bg-transparent border-none outline-none text-emerald-400 font-mono text-sm placeholder:text-slate-600 py-0.5"
+                    />
+                    <span className="text-slate-400 hidden sm:inline">,</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Email Field */}
+              <div className="flex items-start gap-2.5">
+                <span className="text-slate-600 w-5 text-right shrink-0 pt-3 select-none">04</span>
+                <div className="flex-1 flex flex-col gap-1 py-1 px-3 rounded-lg bg-slate-900/60 border border-white/5 focus-within:border-cyan-500/40 transition-colors">
+                  <div className="flex items-center justify-between text-[10px] text-slate-500 select-none">
+                    <span>// {t('form.email_label')}</span>
+                    <span>string (email)</span>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-1.5">
+                    <span className="text-amber-400/80 shrink-0">email:</span>
+                    <input
+                      name="email"
+                      type="email"
+                      required
+                      placeholder={`"${t('form.email_placeholder')}"`}
+                      dir="ltr"
+                      className="flex-1 bg-transparent border-none outline-none text-emerald-400 font-mono text-sm placeholder:text-slate-600 py-0.5 text-left"
+                    />
+                    <span className="text-slate-400 hidden sm:inline">,</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Message Field */}
+              <div className="flex items-start gap-2.5">
+                <span className="text-slate-600 w-5 text-right shrink-0 pt-3 select-none">05</span>
+                <div className="flex-1 flex flex-col gap-1 py-1.5 px-3 rounded-lg bg-slate-900/60 border border-white/5 focus-within:border-cyan-500/40 transition-colors">
+                  <div className="flex items-center justify-between text-[10px] text-slate-500 select-none">
+                    <span>// {t('form.message_label')}</span>
+                    <span>string (markdown)</span>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-amber-400/80 shrink-0">message:</span>
+                    <textarea
+                      name="message"
+                      required
+                      rows={4}
+                      placeholder={`\`${t('form.message_placeholder')}\``}
+                      className="w-full bg-transparent border-none outline-none text-emerald-400 font-mono text-sm placeholder:text-slate-600 resize-none py-0.5"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2.5 select-none">
+                <span className="text-slate-600 w-5 text-right shrink-0">06</span>
+                <span className="text-slate-400">{'}'};</span>
+              </div>
+
+              <div className="flex items-start gap-2.5 select-none">
+                <span className="text-slate-600 w-5 text-right shrink-0">07</span>
+                <p className="text-indigo-400">
+                  <span className="text-cyan-400">sendRequest</span>(<span className="text-blue-400">projectRequest</span>);
                 </p>
-              )}
-            </motion.div>
+              </div>
+
+              {/* Submit & Status */}
+              <motion.div variants={item} className="pt-2 select-none">
+                <motion.button
+                  type="submit"
+                  disabled={formStatus === 'loading'}
+                  whileHover={formStatus !== 'loading' ? { scale: 1.01 } : {}}
+                  whileTap={formStatus !== 'loading' ? { scale: 0.99 } : {}}
+                  className={`relative font-mono text-sm font-bold w-full py-4 rounded-xl transition-all overflow-hidden flex items-center justify-center gap-2 ${
+                    formStatus === 'loading'
+                      ? 'bg-slate-800 text-slate-500 cursor-not-allowed border border-slate-700/50'
+                      : 'bg-cyan-500 text-slate-950 border border-cyan-400 shadow-lg shadow-cyan-500/20 hover:bg-cyan-400 hover:shadow-cyan-500/30'
+                  }`}
+                >
+                  {formStatus === 'loading' ? (
+                    <>
+                      <span className="animate-spin rounded-full h-4 w-4 border-2 border-slate-500 border-t-transparent" />
+                      <span>{t('form.status_loading')}</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>execute_submit()</span>
+                      <span className="text-xs opacity-80">→</span>
+                    </>
+                  )}
+                </motion.button>
+
+                <div className="h-6 mt-3">
+                  {formStatus === 'success' && (
+                    <p className="text-center text-sm font-semibold text-emerald-400 font-mono">
+                      {`// ${t('form.status_success')}`}
+                    </p>
+                  )}
+                  {formStatus === 'error' && (
+                    <p className="text-center text-sm font-semibold text-rose-400 font-mono">
+                      {`// Error: ${t('form.status_error')}`}
+                    </p>
+                  )}
+                </div>
+              </motion.div>
+            </div>
           </motion.form>
         </div>
 

@@ -22,14 +22,14 @@ export default function TerminalWidget() {
   useEffect(() => {
     if (isRtl) {
       setLogs([
-        { text: 'نظام تشغيل عادل منير [الإصدار 1.0.0]', type: 'success' },
+        { text: 'نظام تشغيل عادل منير الإصدار 1.0.0', type: 'success' },
         { text: 'جميع الحقوق محفوظة لمطور الويب عادل منير.', type: 'output' },
         { text: "اكتب 'help' لعرض الأوامر البرمجية المتاحة.", type: 'output' },
         { text: '', type: 'output' },
       ]);
     } else {
       setLogs([
-        { text: 'Adel Mounir OS [Version 1.0.0]', type: 'success' },
+        { text: 'Adel Mounir OS Version 1.0.0', type: 'success' },
         { text: 'All rights reserved to Full-Stack Developer Adel Mounir.', type: 'output' },
         { text: "Type 'help' to list available commands.", type: 'output' },
         { text: '', type: 'output' },
@@ -73,7 +73,7 @@ export default function TerminalWidget() {
           addOutput('  skills   - عرض المهارات البرمجية كشجرة هيكلية');
           addOutput('  projects - عرض قائمة بالمشاريع المنجزة حالياً');
           addOutput('  system   - معلومات نظام التشغيل الافتراضي');
-          addOutput('  hack     - تفعيل وضع الاختراق البرمجي (للتسلية)');
+          addOutput('  hack     - تفعيل وضع الاختراق البرمجي للتسلية');
           addOutput('  clear    - مسح شاشة سطر الأوامر');
           addOutput('  exit     - إغلاق نافذة الأوامر');
         } else {
@@ -90,7 +90,7 @@ export default function TerminalWidget() {
       case 'about':
         if (isRtl) {
           addOutput('نبذة عن المطور عادل منير:', 'success');
-          addOutput('مطور Full Stack محترف في بناء الأنظمة المؤسسية وتطبيقات الويب السحابية.');
+          addOutput('مطور ويب متكامل محترف في بناء الأنظمة المؤسسية وتطبيقات الويب السحابية.');
           addOutput('متخصص في أتمتة العمليات وربط واجهات برمجة تطبيقات أمازون لشركاء البيع.');
           addOutput('قام بتطوير وتسليم أكثر من 25 نظاماً برمجياً متكاملاً يعمل في بيئات إنتاج حقيقية.');
         } else {
@@ -103,47 +103,47 @@ export default function TerminalWidget() {
       case 'skills':
         if (isRtl) {
           addOutput('شجرة المهارات والترسانة التقنية:', 'success');
-          addOutput('⚡ الأسلحة الأساسية');
+          addOutput('التقنيات الأساسية');
           addOutput('    ├── React / Next.js');
           addOutput('    ├── TypeScript & JavaScript');
           addOutput('    ├── Python / FastAPI');
           addOutput('    └── Amazon SP-API Integration');
-          addOutput('🚀 متمكن من');
+          addOutput('متمكن من');
           addOutput('    ├── Node.js / NestJS & .NET 8 / C#');
           addOutput('    ├── PostgreSQL / SQLite / Docker');
           addOutput('    └── Electron / Web Scraping');
-          addOutput('💡 على دراية بـ');
+          addOutput('على دراية بـ');
           addOutput('    └── Redis / MongoDB / PWA / Pandas');
         } else {
           addOutput('Tech Stack Structure:', 'success');
-          addOutput('⚡ Core Arsenal');
+          addOutput('Core Stack');
           addOutput('    ├── React / Next.js');
           addOutput('    ├── TypeScript & JavaScript');
           addOutput('    ├── Python / FastAPI');
           addOutput('    └── Amazon SP-API Integration');
-          addOutput('🚀 Proficient In');
+          addOutput('Proficient In');
           addOutput('    ├── Node.js / NestJS & .NET 8 / C#');
           addOutput('    ├── PostgreSQL / SQLite / Docker');
           addOutput('    └── Electron / Web Scraping');
-          addOutput('💡 Familiar With');
+          addOutput('Familiar With');
           addOutput('    └── Redis / MongoDB / PWA / Pandas');
         }
         break;
       case 'projects':
         if (isRtl) {
           addOutput('أبرز المشاريع الحية والمنشورة:', 'success');
-          addOutput('• Apex Commerce (https://60sec.shop/)');
-          addOutput('• Darb Almaha Page (https://darbalmaha.com/)');
-          addOutput('• XP Black Automations (https://xp-black.com/)');
-          addOutput('• Ahla Makan Cleaning (https://ahla-makan.com/)');
-          addOutput('• KitVet Veterinary Tech (https://kitvet.com/)');
+          addOutput('• Apex Commerce - https://60sec.shop/');
+          addOutput('• Darb Almaha Page - https://darbalmaha.com/');
+          addOutput('• XP Black Automations - https://xp-black.com/');
+          addOutput('• Ahla Makan Cleaning - https://ahla-makan.com/');
+          addOutput('• KitVet Veterinary Tech - https://kitvet.com/');
         } else {
           addOutput('Featured Shipped Projects:', 'success');
-          addOutput('• Apex Commerce (https://60sec.shop/)');
-          addOutput('• Darb Almaha Page (https://darbalmaha.com/)');
-          addOutput('• XP Black Automations (https://xp-black.com/)');
-          addOutput('• Ahla Makan Cleaning (https://ahla-makan.com/)');
-          addOutput('• KitVet Veterinary Tech (https://kitvet.com/)');
+          addOutput('• Apex Commerce - https://60sec.shop/');
+          addOutput('• Darb Almaha Page - https://darbalmaha.com/');
+          addOutput('• XP Black Automations - https://xp-black.com/');
+          addOutput('• Ahla Makan Cleaning - https://ahla-makan.com/');
+          addOutput('• KitVet Veterinary Tech - https://kitvet.com/');
         }
         break;
       case 'system':
@@ -157,7 +157,7 @@ export default function TerminalWidget() {
         addOutput('>>> بدء عملية تجاوز الجدار الناري المالي...', 'error');
         addOutput('>>> فك تشفير مفتاح أتمتة Amazon SP-API...', 'error');
         addOutput('>>> الاتصال بقاعدة بيانات PostgreSQL مشفرة...', 'error');
-        addOutput('>>> [تم بنجاح] لقد تم اختراق سطر الأوامر... استمتع بالتصفح!', 'success');
+        addOutput('>>> تم اختراق سطر الأوامر بنجاح... استمتع بالتصفح!', 'success');
         break;
       default:
         if (isRtl) {
@@ -170,26 +170,18 @@ export default function TerminalWidget() {
     setLogs(newLogs);
   };
 
-  const containerPosition = isRtl
-    ? 'left-6 md:left-8'
-    : 'right-6 md:right-8';
-
-  const tooltipPosition = isRtl
-    ? 'left-full ml-3'
-    : 'right-full mr-3';
-
   return (
     <>
       {/* Floating Action Button */}
-      <div className={`fixed bottom-24 ${containerPosition} z-[99] flex items-center group`}>
+      <div className="terminal-floating-container">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="w-14 h-14 rounded-full bg-gradient-to-r from-cyan-600 to-purple-600 hover:from-cyan-500 hover:to-purple-500 text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 opacity-40 hover:opacity-100"
+          className="w-14 h-14 rounded-full bg-gradient-to-r from-cyan-600 to-purple-600 hover:from-cyan-500 hover:to-purple-500 text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110"
           aria-label="Open Terminal DevConsole"
         >
           <HiTerminal className="w-6 h-6 animate-pulse" />
         </button>
-        <div className={`absolute top-1/2 -translate-y-1/2 ${tooltipPosition} bg-[#0d0d2b] color-white px-3 py-1.5 rounded-lg text-[10px] font-mono border border-cyan-500/25 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none whitespace-nowrap`}>
+        <div className="terminal-tooltip font-mono text-[10px] border border-cyan-500/25">
           {isRtl ? 'افتح سطر الأوامر التفاعلي >_' : 'Open DevConsole Terminal >_'}
         </div>
       </div>
@@ -202,7 +194,7 @@ export default function TerminalWidget() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 50 }}
             transition={{ type: 'spring', stiffness: 300, damping: 25 }}
-            className={`fixed bottom-40 ${isRtl ? 'left-6 md:left-8' : 'right-6 md:right-8'} w-[90vw] sm:w-[450px] md:w-[500px] h-[320px] rounded-2xl bg-[#030312]/95 backdrop-blur-md border border-cyan-500/30 shadow-2xl flex flex-col overflow-hidden z-[100]`}
+            className={`fixed bottom-40 ${isRtl ? 'right-6 md:right-8' : 'left-6 md:left-8'} w-[90vw] sm:w-[450px] md:w-[500px] h-[320px] rounded-2xl bg-[#030312]/95 backdrop-blur-md border border-cyan-500/30 shadow-2xl flex flex-col overflow-hidden z-[100]`}
           >
             {/* macOS Window Title Bar */}
             <div className="h-10 bg-[#0d0d24] border-b border-cyan-500/15 flex items-center justify-between px-4 shrink-0">
@@ -265,3 +257,4 @@ export default function TerminalWidget() {
     </>
   );
 }
+

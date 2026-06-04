@@ -3,26 +3,26 @@
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
-import { HiChevronDown } from 'react-icons/hi';
+import { HiChevronDown, HiCode, HiChip, HiLightBulb } from 'react-icons/hi';
 
 const SKILL_LEVELS = [
   {
     key: 'core',
     color: '#06B6D4',
     skills: ['React / Next.js', 'TypeScript', 'Python / FastAPI', 'Tailwind CSS', 'Node.js / NestJS', 'Amazon SP-API'],
-    icon: '⚡'
+    icon: HiCode
   },
   {
     key: 'proficient',
     color: '#7C3AED',
-    skills: ['PostgreSQL / SQLite', 'Docker / Compose', '.NET 8 / C#', 'Prisma ORM', 'Electron (Desktop)', 'Playwright / Web Scraping', 'LLMs & AI Integrations', 'CI/CD (GitHub Actions)'],
-    icon: '🚀'
+    skills: ['PostgreSQL / SQLite', 'Docker / Compose', '.NET 8 / C#', 'Prisma ORM', 'Electron Desktop', 'Playwright / Web Scraping', 'LLMs & AI Integrations', 'CI/CD Pipelines'],
+    icon: HiChip
   },
   {
     key: 'familiar',
     color: '#10B981',
-    skills: ['SQL Server', 'Redis', 'MongoDB', 'PWA / Service Workers', 'Linux / Bash', 'Cryptography (AES/Fernet)', 'Pandas (BI)'],
-    icon: '💡'
+    skills: ['SQL Server', 'Redis', 'MongoDB', 'PWA / Service Workers', 'Linux / Bash', 'Cryptography AES & Fernet', 'Pandas BI'],
+    icon: HiLightBulb
   }
 ];
 
@@ -89,10 +89,10 @@ export default function Skills() {
               <div className={`flex items-center justify-between transition-all ${openLevel === level.key ? 'mb-6 pb-6 border-b border-[var(--border-color)]' : 'md:mb-8 md:pb-6 md:border-b border-[var(--border-color)]'}`}>
                 <div className="flex items-center gap-4">
                   <div
-                    className="w-10 h-10 md:w-12 md:h-12 rounded-2xl flex items-center justify-center text-lg md:text-xl shadow-lg shrink-0"
+                    className="w-10 h-10 md:w-12 md:h-12 rounded-2xl flex items-center justify-center shadow-lg shrink-0"
                     style={{ background: `${level.color}15`, border: `1px solid ${level.color}30` }}
                   >
-                    {level.icon}
+                    <level.icon className="w-5 h-5" style={{ color: level.color }} />
                   </div>
                   <div>
                     <h3 className="font-black text-lg md:text-xl text-[var(--text-primary)] tracking-tight">

@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion, Variants } from 'framer-motion';
-import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi';
+import { HiMail, HiPhone, HiLocationMarker, HiCode } from 'react-icons/hi';
 import { FaGithub, FaWhatsapp } from 'react-icons/fa';
 import { useState } from 'react';
 
@@ -149,7 +149,7 @@ export default function Contact() {
                 <div className="w-3 h-3 rounded-full bg-green-500/70" />
               </div>
               <div className="flex items-center gap-2 text-xs font-mono text-slate-400">
-                <span className="text-cyan-400">⚡</span>
+                <HiCode className="text-cyan-400 w-4.5 h-4.5" />
                 <span>contact_form.ts</span>
               </div>
               <div className="text-[10px] font-mono text-slate-500">

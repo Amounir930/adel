@@ -461,3 +461,73 @@ body {
   transform: translateY(-50%) translateX(0);
 }
 
+/* ===== FLOATING TERMINAL BUTTON ===== */
+.terminal-floating-container {
+  position: fixed;
+  bottom: 92px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  opacity: 0.35;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.terminal-floating-container:hover {
+  opacity: 1;
+}
+
+[dir="ltr"] .terminal-floating-container {
+  left: 24px;
+  flex-direction: row;
+}
+
+[dir="rtl"] .terminal-floating-container {
+  right: 24px;
+  flex-direction: row-reverse;
+}
+
+.terminal-tooltip {
+  position: absolute;
+  top: 50%;
+  background-color: #0d0d2b;
+  color: #f1f5f9;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+[dir="ltr"] .terminal-tooltip {
+  left: 100%;
+  margin-left: 12px;
+  transform: translateY(-50%) translateX(-10px);
+}
+
+[dir="rtl"] .terminal-tooltip {
+  right: 100%;
+  margin-right: 12px;
+  transform: translateY(-50%) translateX(10px);
+}
+
+.terminal-floating-container:hover .terminal-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+[dir="ltr"] .terminal-floating-container:hover .terminal-tooltip {
+  transform: translateY(-50%) translateX(0);
+}
+
+[dir="rtl"] .terminal-floating-container:hover .terminal-tooltip {
+  transform: translateY(-50%) translateX(0);
+}
+
+

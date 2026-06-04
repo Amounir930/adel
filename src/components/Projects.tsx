@@ -60,6 +60,48 @@ export default function Projects() {
     (p) => selectedCategory === 'all' || p.category === selectedCategory
   );
 
+  const isFiltered = selectedCategory !== 'all';
+
+  // Dynamically calculate grid spans to eliminate holes and maintain clean layout ratios
+  const layoutItems = (() => {
+    const items = filteredProjects.map((p) => {
+      const isWide =
+        p.hasMetric ||
+        p.key === 'crazy_lister' ||
+        p.key === 'cerebras_studio' ||
+        p.key === 'safaric_youth';
+      return {
+        project: p,
+        lgSpan: isWide ? 2 : 1,
+        mdSpan: isWide ? 2 : 1,
+      };
+    });
+
+    if (!isFiltered) {
+      return items;
+    }
+
+    // Adjust lg spans (3 columns) to fill gaps at the end
+    let lgSum = items.reduce((sum, item) => sum + item.lgSpan, 0);
+    let lgRemainder = lgSum % 3;
+    if (lgRemainder === 1) {
+      const last = items[items.length - 1];
+      if (last) last.lgSpan = 3;
+    } else if (lgRemainder === 2) {
+      const last = items[items.length - 1];
+      if (last && last.lgSpan === 1) last.lgSpan = 2;
+    }
+
+    // Adjust md spans (2 columns) to fill gaps at the end
+    let mdSum = items.reduce((sum, item) => sum + item.mdSpan, 0);
+    if (mdSum % 2 === 1) {
+      const last = items[items.length - 1];
+      if (last && last.mdSpan === 1) last.mdSpan = 2;
+    }
+
+    return items;
+  })();
+
   return (
     <section id="projects" className="py-20 px-6 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -110,18 +152,33 @@ export default function Projects() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: '-50px' }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense gap-6"
         >
-          {filteredProjects.map((project) => {
-            const isWide =
-              project.hasMetric ||
-              project.key === 'crazy_lister' ||
-              project.key === 'cerebras_studio' ||
-              project.key === 'safaric_youth';
+          {layoutItems.map((item) => {
+            const { project, lgSpan, mdSpan } = item;
 
-            const cardSpan = isWide ? 'md:col-span-2' : 'md:col-span-1';
+            const lgSpanClass =
+              lgSpan === 3
+                ? 'lg:col-span-3'
+                : lgSpan === 2
+                ? 'lg:col-span-2'
+                : 'lg:col-span-1';
+
+            const mdSpanClass =
+              mdSpan === 2
+                ? 'md:col-span-2'
+                : 'md:col-span-1';
+
+            const cardSpan = `${lgSpanClass} ${mdSpanClass} col-span-1`;
             const hasImages = project.images && project.images.length > 0;
             const tags = (t.raw(`items.${project.key}.tags`) as string[]) || [];
+
+            const imageHeightClass =
+              lgSpan === 3
+                ? 'md:h-64 h-44'
+                : lgSpan === 2
+                ? 'md:h-56 h-44'
+                : 'h-44';
 
             return (
               <motion.div
@@ -161,7 +218,7 @@ export default function Projects() {
 
                   {/* Browser or Terminal visualizer */}
                   {hasImages ? (
-                    <div className="relative w-full h-44 bg-slate-900 rounded-xl overflow-hidden border border-white/5 flex flex-col group-hover:border-cyan-500/20 transition-colors">
+                    <div className={`relative w-full ${imageHeightClass} bg-slate-900 rounded-xl overflow-hidden border border-white/5 flex flex-col group-hover:border-cyan-500/20 transition-all duration-300`}>
                       {/* Browser Mockup controls */}
                       <div className="flex items-center gap-1 px-3 py-1.5 bg-slate-950 border-b border-white/5">
                         <div className="w-1.5 h-1.5 rounded-full bg-red-500/60" />
@@ -174,13 +231,13 @@ export default function Projects() {
                           src={project.images[0]}
                           alt={t(`items.${project.key}.name`)}
                           fill
-                          sizes="(max-width: 768px) 100vw, 380px"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
                           className="object-cover object-top opacity-80 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-500"
                         />
                       </div>
                     </div>
                   ) : (
-                    <div className="relative w-full h-44 bg-slate-950 rounded-xl overflow-hidden border border-white/5 flex flex-col p-4 group-hover:border-cyan-500/20 transition-colors">
+                    <div className={`relative w-full ${imageHeightClass} bg-slate-950 rounded-xl overflow-hidden border border-white/5 flex flex-col p-4 group-hover:border-cyan-500/20 transition-all duration-300`}>
                       {/* Terminal header */}
                       <div className="flex items-center gap-1 border-b border-white/5 pb-2 mb-3">
                         <div className="w-1.5 h-1.5 rounded-full bg-slate-700" />

@@ -138,6 +138,7 @@ export default function Contact() {
             whileInView="show"
             viewport={{ once: true }}
             onSubmit={handleSubmit}
+            dir="ltr"
             className="card p-0 overflow-hidden relative border border-[var(--border-color)] bg-[var(--bg-surface)] shadow-2xl flex flex-col"
           >
             {/* IDE Window Title Bar */}

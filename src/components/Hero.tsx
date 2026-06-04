@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { HiDownload, HiCode, HiServer, HiChip } from 'react-icons/hi';
 
 const STATS = [
-  { key: 'stat_projects', value: '8+' },
+  { key: 'stat_projects', value: '25+' },
   { key: 'stat_years', value: '4+' },
   { key: 'stat_tech', value: '20+' },
   { key: 'stat_countries', value: '3' },

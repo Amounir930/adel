@@ -5,6 +5,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import "./../globals.css";
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 
 const geistSans = Geist({
@@ -54,6 +55,7 @@ export default async function RootLayout({
       <body className="min-h-full flex flex-col bg-[var(--bg-base)] text-[var(--text-primary)] transition-colors duration-300">
         <NextIntlClientProvider messages={messages}>
           {children}
+          <WhatsAppButton />
         </NextIntlClientProvider>
       </body>
     </html>

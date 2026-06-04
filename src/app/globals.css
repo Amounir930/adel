@@ -333,3 +333,109 @@ body {
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* ===== FLOATING WHATSAPP BUTTON ===== */
+.whatsapp-floating-container {
+  position: fixed;
+  bottom: 24px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+
+[dir="ltr"] .whatsapp-floating-container {
+  right: 24px;
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .whatsapp-floating-container {
+  left: 24px;
+  flex-direction: row;
+}
+
+.whatsapp-float {
+  width: 56px;
+  height: 56px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-icon-wrapper {
+  z-index: 2;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-pulse, .whatsapp-pulse-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(37, 211, 102, 0.4);
+  z-index: 1;
+  animation: whatsapp-pulse-anim 2s infinite ease-out;
+  pointer-events: none;
+}
+
+.whatsapp-pulse-2 {
+  animation-delay: 1s;
+}
+
+@keyframes whatsapp-pulse-anim {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.whatsapp-tooltip {
+  background-color: #0d0d2b;
+  color: #f1f5f9;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+[dir="ltr"] .whatsapp-tooltip {
+  transform: translateX(10px);
+}
+
+[dir="rtl"] .whatsapp-tooltip {
+  transform: translateX(-10px);
+}
+
+.whatsapp-floating-container:hover .whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+

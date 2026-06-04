@@ -465,6 +465,7 @@
       "copyright": "Adel Mounir",
       "all_rights_reserved": "All rights reserved",
       "built_with": "Built with Next.js + Tailwind"
-    }
+    },
+    "whatsapp_tooltip": "Chat with me on WhatsApp"
   }
 }

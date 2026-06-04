@@ -9,19 +9,19 @@ const SKILL_LEVELS = [
   {
     key: 'core',
     color: '#06B6D4',
-    skills: ['React / Next.js', 'TypeScript', 'Python / FastAPI', 'Tailwind CSS', 'Amazon SP-API'],
+    skills: ['React / Next.js', 'TypeScript', 'Python / FastAPI', 'Tailwind CSS', 'Node.js / NestJS', 'Amazon SP-API'],
     icon: '⚡'
   },
   {
     key: 'proficient',
     color: '#7C3AED',
-    skills: ['PostgreSQL', 'Node.js / NestJS', 'Docker / Compose', 'Playwright / Scraping', 'LLM APIs (Cerebras/Qwen)', 'CI/CD (GitLab)'],
+    skills: ['PostgreSQL / SQLite', 'Docker / Compose', '.NET 8 / C#', 'Prisma ORM', 'Electron (Desktop)', 'Playwright / Web Scraping', 'LLMs & AI Integrations', 'CI/CD (GitHub Actions)'],
     icon: '🚀'
   },
   {
     key: 'familiar',
     color: '#10B981',
-    skills: ['Redis', 'MongoDB', 'Linux / Bash', 'Cryptography (Fernet/AES)'],
+    skills: ['SQL Server', 'Redis', 'MongoDB', 'PWA / Service Workers', 'Linux / Bash', 'Cryptography (AES/Fernet)', 'Pandas (BI)'],
     icon: '💡'
   }
 ];

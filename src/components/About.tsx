@@ -5,7 +5,8 @@ import { motion } from 'framer-motion';
 import { HiCode, HiServer, HiChip, HiCheckCircle, HiLocationMarker } from 'react-icons/hi';
 import {
   SiReact, SiNextdotjs, SiTypescript, SiPython, SiNodedotjs,
-  SiFastapi, SiPostgresql, SiDocker, SiTailwindcss
+  SiFastapi, SiPostgresql, SiDocker, SiTailwindcss, SiDotnet,
+  SiElectron, SiPrisma, SiRedis, SiAmazon
 } from 'react-icons/si';
 
 const SKILL_CATEGORIES = [
@@ -17,6 +18,7 @@ const SKILL_CATEGORIES = [
       { icon: SiReact, name: 'React / Next.js' },
       { icon: SiTypescript, name: 'TypeScript' },
       { icon: SiTailwindcss, name: 'Tailwind CSS' },
+      { icon: SiElectron, name: 'Electron (Desktop)' },
     ],
   },
   {
@@ -26,7 +28,8 @@ const SKILL_CATEGORIES = [
     skills: [
       { icon: SiPython, name: 'Python / FastAPI' },
       { icon: SiNodedotjs, name: 'Node.js / NestJS' },
-      { icon: SiFastapi, name: 'REST APIs' },
+      { icon: SiDotnet, name: '.NET 8 / C#' },
+      { icon: SiFastapi, name: 'REST APIs & AI Integration' },
     ],
   },
   {
@@ -34,9 +37,11 @@ const SKILL_CATEGORIES = [
     key: 'tools',
     color: '#F59E0B',
     skills: [
-      { icon: SiPostgresql, name: 'PostgreSQL / Redis' },
+      { icon: SiAmazon, name: 'Amazon SP-API' },
+      { icon: SiPostgresql, name: 'PostgreSQL / SQLite' },
+      { icon: SiRedis, name: 'Redis / MongoDB' },
       { icon: SiDocker, name: 'Docker / CI/CD' },
-      { icon: SiNextdotjs, name: 'Amazon SP-API' },
+      { icon: SiPrisma, name: 'Prisma ORM' },
     ],
   },
 ];

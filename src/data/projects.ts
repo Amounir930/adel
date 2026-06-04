@@ -67,27 +67,12 @@ export const PROJECTS: ProjectDef[] = [
     images: ['/projects/sharepoint.png'],
   },
   {
-    key: 'alyusr',
-    category: 'enterprise',
-    color: '#F59E0B',
-    accentColor: '#D97706',
-    images: ['/projects/Adel-mounir.png'],
-  },
-  {
     key: 'kitvet',
     category: 'websites',
     color: '#3B82F6',
     accentColor: '#2563EB',
     live: 'https://mostaql.com/portfolio/3502334-تصميم-صفحة-هبوط-استراتيجية-لبيع-نطاق-kitvet-com-veterinary-tech',
     images: ['/projects/kitvet.png', '/projects/kitvet_1.png'],
-  },
-  {
-    key: 'mounir_data_gen',
-    category: 'ai',
-    color: '#EC4899',
-    accentColor: '#BE185D',
-    github: 'https://github.com/adelfree2023-dev/Mounir',
-    images: ['/projects/Adel-mounir.png'],
   },
   {
     key: 'municipal_lease_db',

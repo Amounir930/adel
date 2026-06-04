@@ -171,27 +171,6 @@
           "Threading"
         ]
       },
-      "alyusr": {
-        "name": "Al Yusr System",
-        "tagline": "Pastirma Factory Management System",
-        "description": "A complete enterprise management system for Al Yusr Pastirma Factory. Built with React + TypeScript (94% TypeScript coverage) and Vite, covering inventory management, production tracking, and financial accounting.",
-        "features": [
-          "Inventory & Production Management",
-          "Integrated Accounting System",
-          "React + TypeScript Interface",
-          "94% TypeScript Coverage",
-          "Detailed Reports",
-          "Built with Vite for Performance",
-          "Full Arabic RTL Design"
-        ],
-        "tags": [
-          "React",
-          "TypeScript",
-          "Vite",
-          "Enterprise",
-          "CSS"
-        ]
-      },
       "kitvet": {
         "name": "Premium Veterinary Domain Sales Page",
         "tagline": "Premium Veterinary Domain Sales Page",
@@ -206,25 +185,6 @@
           "Tailwind CSS",
           "Framer Motion",
           "Landing Page Design"
-        ]
-      },
-      "mounir_data_gen": {
-        "name": "Mounir Data Gen",
-        "tagline": "Automated Data Generation System",
-        "description": "An advanced engineering tool for automated data generation, designed to automate testing scenarios and prepare massive data sets (Mock/Seeding) for comprehensive testing environments.",
-        "features": [
-          "Massive Data Auto-generation",
-          "Test Scenario Automation",
-          "Multi-format Data Export",
-          "Advanced Mock Databases",
-          "High Performance Seeding",
-          "Nested JSON Structures Support"
-        ],
-        "tags": [
-          "Python",
-          "Data Engineering",
-          "Automation",
-          "Testing"
         ]
       },
       "municipal_lease_db": {

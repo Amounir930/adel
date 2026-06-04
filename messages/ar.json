@@ -171,27 +171,6 @@
           "Threading"
         ]
       },
-      "alyusr": {
-        "name": "نظام اليسر",
-        "tagline": "نظام إدارة مصنع البسطرمة",
-        "description": "نظام إدارة مؤسسي متكامل لمصنع اليسر للبسطرمة. مبني بـ React + TypeScript (94% TypeScript) مع Vite، يتضمن إدارة المخزون والإنتاج والحسابات.",
-        "features": [
-          "إدارة المخزون والإنتاج",
-          "نظام محاسبي متكامل",
-          "واجهة React + TypeScript",
-          "94% TypeScript Coverage",
-          "تقارير مفصلة",
-          "مبني بـ Vite للأداء",
-          "تصميم عربي RTL"
-        ],
-        "tags": [
-          "React",
-          "TypeScript",
-          "Vite",
-          "Enterprise",
-          "CSS"
-        ]
-      },
       "kitvet": {
         "name": "تصميم صفحة هبوط استراتيجية لبيع نطاق KitVet com (Veterinary Tech)",
         "tagline": "صفحة هبوط استراتيجية لبيع نطاق KitVet",
@@ -206,25 +185,6 @@
           "Tailwind CSS",
           "Framer Motion",
           "Landing Page Design"
-        ]
-      },
-      "mounir_data_gen": {
-        "name": "Mounir Data Gen",
-        "tagline": "نظام توليد البيانات التلقائي",
-        "description": "أداة هندسية متقدمة لتوليد البيانات تلقائياً، مصممة لأتمتة المهام وتجهيز حزم البيانات الضخمة (Mock/Seeding) للاختبارات الهندسية الشاملة.",
-        "features": [
-          "توليد بيانات ضخمة تلقائياً",
-          "أتمتة سيناريوهات الاختبار",
-          "تصدير البيانات بصيغ متعددة",
-          "قواعد بيانات وهمية متقدمة",
-          "أداء فائق للبيانات الضخمة",
-          "دعم الهياكل المعقدة (Nested JSON)"
-        ],
-        "tags": [
-          "Python",
-          "Data Engineering",
-          "Automation",
-          "Testing"
         ]
       },
       "municipal_lease_db": {

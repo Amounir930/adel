@@ -29,16 +29,6 @@ function renderTerminalContent(key: string) {
       </div>
     );
   }
-  if (key === 'mounir_data_gen') {
-    return (
-      <div className="font-mono text-[10px] text-pink-400 space-y-1 select-none">
-        <div>$ node generator.js --size=100k</div>
-        <div className="text-slate-500">Generating fake structured records...</div>
-        <div className="text-emerald-400">Generated 100,000 entities in 482ms</div>
-        <div className="text-slate-500">Exporting to PostgreSQL database...</div>
-      </div>
-    );
-  }
   if (key === 'municipal_lease_db') {
     return (
       <div className="font-mono text-[10px] text-emerald-400 space-y-1 select-none">
@@ -115,6 +105,7 @@ export default function Projects() {
 
         {/* Bento Grid */}
         <motion.div
+          key={selectedCategory}
           variants={containerVariants}
           initial="hidden"
           whileInView="show"

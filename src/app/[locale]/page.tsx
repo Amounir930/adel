@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: PageProps) {
 
   const siteTitle =
     locale === 'ar'
-      ? 'عادل منير | مهندس برمجيات ونظم مؤسسية'
-      : 'Adel Mounir | Full-Stack Software Engineer';
+      ? 'عادل منير | مطور Full Stack ونظم مؤسسية'
+      : 'Adel Mounir | Full-Stack Developer';
   const siteDesc = t('description');
 
   return {
@@ -53,7 +53,7 @@ export default async function Home({ params }: PageProps) {
     '@type': 'Person',
     'name': 'Adel Mounir',
     'url': `https://adel.mounir.60sec.shop/${locale}`,
-    'jobTitle': 'Software Engineer',
+    'jobTitle': 'Full-Stack Developer',
     'knowsAbout': ['Software Development', 'Web Development', 'Databases', 'APIs', 'Automation'],
     'sameAs': [
       'https://github.com/adelfree2023-dev',

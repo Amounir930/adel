@@ -26,8 +26,8 @@ const cairo = Cairo({
 
 
 export const metadata: Metadata = {
-  title: "Adel Mounir | Software Engineer Portfolio",
-  description: "Professional portfolio of Adel Mounir, a Full-Stack Software Engineer specialized in Enterprise systems, APIs, and Automation.",
+  title: "Adel Mounir | Full-Stack Developer Portfolio",
+  description: "Professional portfolio of Adel Mounir, a Full-Stack Developer specialized in Enterprise systems, APIs, and Automation.",
 };
 
 export default async function RootLayout({

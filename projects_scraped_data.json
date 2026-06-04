@@ -1,0 +1,360 @@
+[
+  {
+    "key": "municipal_lease_db",
+    "title_ar": "هندسة وتصميم قاعدة بيانات احترافية لنظام عقود الإيجار البلدية",
+    "title_en": "Municipal Lease Db",
+    "description_ar": "هندسة وتصميم قاعدة بيانات احترافية لنظام عقود الإيجار البلدية",
+    "description_en": "English description for هندسة وتصميم قاعدة بيانات احترافية لنظام عقود الإيجار البلدية. Developed with enterprise standards.",
+    "category": "enterprise",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/municipal_lease_db_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3556269-هندسة-وتصميم-قاعدة-بيانات-احترافية-لنظام-عقود-الإيجار-البلدية",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "xp_black_dashboard",
+    "title_ar": "تصميم وتطوير لوحة تحكم XP Black لإدارة الحسابات وأتمتة الألعاب",
+    "title_en": "Xp Black Dashboard",
+    "description_ar": "تصميم وتطوير لوحة تحكم XP Black لإدارة الحسابات وأتمتة الألعاب",
+    "description_en": "English description for تصميم وتطوير لوحة تحكم XP Black لإدارة الحسابات وأتمتة الألعاب. Developed with enterprise standards.",
+    "category": "ai",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/xp_black_dashboard_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3556254-تصميم-وتطوير-لوحة-تحكم-xp-black-لإدارة-الحسابات-وأتمتة-الألعاب",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "smart_credit_analysis",
+    "title_ar": "تصميم وتطوير منصة ذكية لتحليل الجدارة الائتمانية وسداد المديونيات",
+    "title_en": "Smart Credit Analysis",
+    "description_ar": "تصميم وتطوير منصة ذكية لتحليل الجدارة الائتمانية وسداد المديونيات",
+    "description_en": "English description for تصميم وتطوير منصة ذكية لتحليل الجدارة الائتمانية وسداد المديونيات. Developed with enterprise standards.",
+    "category": "saas",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/smart_credit_analysis_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3556229-تصميم-وتطوير-منصة-ذكية-لتحليل-الجدارة-الائتمانية-وسداد-المديونيات",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "children_care",
+    "title_ar": "تصميم هوية بصرية متكاملة لمشروع \"أطفالنا\" لرعاية وتنمية الأطفال",
+    "title_en": "Children Care",
+    "description_ar": "تصميم هوية بصرية متكاملة لمشروع \"أطفالنا\" لرعاية وتنمية الأطفال",
+    "description_en": "English description for تصميم هوية بصرية متكاملة لمشروع \"أطفالنا\" لرعاية وتنمية الأطفال. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/children_care_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3556202-تصميم-هوية-بصرية-متكاملة-لمشروع-أطفالنا-لرعاية-وتنمية-الأطفال",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "ahla_makan",
+    "title_ar": "تصميم وتطوير موقع إلكتروني لمكتب \"أحلى مكان\" للاستقدام والخدمات المنزلية",
+    "title_en": "Ahla Makan",
+    "description_ar": "تصميم وتطوير موقع إلكتروني لمكتب \"أحلى مكان\" للاستقدام والخدمات المنزلية",
+    "description_en": "English description for تصميم وتطوير موقع إلكتروني لمكتب \"أحلى مكان\" للاستقدام والخدمات المنزلية. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/ahla_makan_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3556185-تصميم-وتطوير-موقع-إلكتروني-لمكتب-أحلى-مكان-للاستقدام-والخدمات-المنزلية",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "60secshop",
+    "title_ar": "تصميم وبرمجة صفحة هبوط متعددة اللغات مع توجيه ذكي لموقع 60sec.shop",
+    "title_en": "60Secshop",
+    "description_ar": "تصميم وبرمجة صفحة هبوط متعددة اللغات مع توجيه ذكي لموقع 60sec.shop",
+    "description_en": "English description for تصميم وبرمجة صفحة هبوط متعددة اللغات مع توجيه ذكي لموقع 60sec.shop. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/60secshop_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3556172-تصميم-وبرمجة-صفحة-هبوط-متعددة-اللغات-مع-توجيه-ذكي-لموقع-60secshop",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "ard_al_diafa",
+    "title_ar": "تصميم وتطوير موقع تفاعلي لشركة \"أرض الضيافة\" للخدمات المنزلية بقطر",
+    "title_en": "Ard Al Diafa",
+    "description_ar": "تصميم وتطوير موقع تفاعلي لشركة \"أرض الضيافة\" للخدمات المنزلية بقطر",
+    "description_en": "English description for تصميم وتطوير موقع تفاعلي لشركة \"أرض الضيافة\" للخدمات المنزلية بقطر. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/ard_al_diafa_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3556154-تصميم-وتطوير-موقع-تفاعلي-لشركة-أرض-الضيافة-للخدمات-المنزلية-بقطر",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "project_7",
+    "title_ar": "النظام المتكامل للفصول الافتراضية التفاعلية وإدارة البث المباشر",
+    "title_en": "Project 7",
+    "description_ar": "النظام المتكامل للفصول الافتراضية التفاعلية وإدارة البث المباشر",
+    "description_en": "English description for النظام المتكامل للفصول الافتراضية التفاعلية وإدارة البث المباشر. Developed with enterprise standards.",
+    "category": "enterprise",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/project_7_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502518-النظام-المتكامل-للفصول-الافتراضية-التفاعلية-وإدارة-البث-المباشر",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "whatsapp_saas_marketing",
+    "title_ar": "منصة SaaS متكاملة لأتمتة تسويق الواتساب والاتصالات بالذكاء الاصطناعي",
+    "title_en": "Whatsapp Saas Marketing",
+    "description_ar": "منصة SaaS متكاملة لأتمتة تسويق الواتساب والاتصالات بالذكاء الاصطناعي",
+    "description_en": "English description for منصة SaaS متكاملة لأتمتة تسويق الواتساب والاتصالات بالذكاء الاصطناعي. Developed with enterprise standards.",
+    "category": "saas",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/whatsapp_saas_marketing_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502341-منصة-saas-متكاملة-لأتمتة-تسويق-الواتساب-والاتصالات-بالذكاء-الاصطناعي",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "kitvet",
+    "title_ar": "تصميم صفحة هبوط استراتيجية لبيع نطاق KitVet com (Veterinary Tech)",
+    "title_en": "Kitvet",
+    "description_ar": "تصميم صفحة هبوط استراتيجية لبيع نطاق KitVet com (Veterinary Tech)",
+    "description_en": "English description for تصميم صفحة هبوط استراتيجية لبيع نطاق KitVet com (Veterinary Tech). Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/kitvet_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502334-تصميم-صفحة-هبوط-استراتيجية-لبيع-نطاق-kitvet-com-veterinary-tech",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "ai_proxy",
+    "title_ar": "Cerebras Proxy Pro (نظام إدارة أحمال الـ AI وتدوير المفاتيح)",
+    "title_en": "Ai Proxy",
+    "description_ar": "Cerebras Proxy Pro (نظام إدارة أحمال الـ AI وتدوير المفاتيح)",
+    "description_en": "English description for Cerebras Proxy Pro (نظام إدارة أحمال الـ AI وتدوير المفاتيح). Developed with enterprise standards.",
+    "category": "ai",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/ai_proxy_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502325-cerebras-proxy-pro-نظام-إدارة-أحمال-الـ-ai-وتدوير-المفاتيح",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "commander_os",
+    "title_ar": "Financial OS",
+    "title_en": "Commander Os",
+    "description_ar": "نظام مالي متطور تم بناؤه ليكون أداة إدارة مركزية (Financial OS) للعمليات التجارية اليومية. يتميز النظام بالقدرة على تتبع التحصيلات، المشتريات، وتوريدات أمازون بدقة متناهية، مع تقديم تقارير تحليلية فورية. تم تصميم النظام كـ PWA (Progressive Web App) ليعمل بكفاءة عالية على الأجهزة المكتبية والمحمولة، مع دعم كامل للـ Dark Mode لتجربة مستخدم مريحة. 2. أبرز المميزات التقنية: لوحة تحكم ذكية (Smart Dashboard): عرض فوري لإجمالي التحصيلات، التوريدات، وصافي الربح مع تحديث تلقائي للبيانات. نظام التحليلات المتقدمة (Advanced Analytics): رسوم بيانية تفاعلية لتحليل توزيع المصروفات وأداء التحصيل الأسبوعي. المزامنة السحابية (Cloud Sync): تكامل مبتكر مع GitHub API لأرشفة الفواتير والمزامنة التلقائية للبيانات. تقارير احترافية: إمكانية تصدير التقارير المالية التفصيلية بصيغ PDF (بتنسيق A4 للطباعة) و Excel (CSV). إدارة الأرشفة: نظام لرفع وأرشفة فواتير المشتريات سحابياً للرجوع إليها في أي وقت. 3. التقنيات المستخدمة (Stack): Frontend: HTML5, CSS3 (Modern Flex/Grid Layout), Vanilla JavaScript (ES6+). PWA: Service Workers & Manifest.json (للعمل بدون إنترنت). Integration: GitHub REST API (للتخزين والمزامنة). Data Handling: JSON, LocalStorage, CSV Export logic.",
+    "description_en": "English description for Financial OS. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/commander_os_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502323-financial-os",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "safaric_youth",
+    "title_ar": "سفيرك الرقمي: المنصة الوطنية الموحدة للمبادرات الشبابية والإدارة المؤسسية",
+    "title_en": "Safaric Youth",
+    "description_ar": "سفيرك الرقمي: المنصة الوطنية الموحدة للمبادرات الشبابية والإدارة المؤسسية",
+    "description_en": "English description for سفيرك الرقمي: المنصة الوطنية الموحدة للمبادرات الشبابية والإدارة المؤسسية. Developed with enterprise standards.",
+    "category": "enterprise",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/safaric_youth_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502319-سفيرك-الرقمي-المنصة-الوطنية-الموحدة-للمبادرات-الشبابية-والإدارة-المؤسسية",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "cerebras_studio",
+    "title_ar": "Cerebras Studio: High-Speed AI Development & Inference Playground",
+    "title_en": "Cerebras Studio",
+    "description_ar": "منصة Cerebras Studio هي بيئة تطوير تفاعلية صُممت خصيصاً للاستفادة من السرعة الاستثنائية لمحركات Cerebras. النظام يقدم تجربة مستخدم تشبه بيئات البرمجة (IDE) لكنها مخصصة للتحاور مع النماذج اللغوية الضخمة وإدارتها برمجياً، مما يجعله الأداة المثالية للمطورين الذين يحتاجون لسرعة استجابة فائقة. أبرز ميزات وخصائص المنصة: 1. بيئة عمل تفاعلية (Intelligent Workspace): واجهة مستخدم حديثة تدعم عرض الكود البرمجي (Syntax Highlighting) بشكل احترافي، مع لوحات جانبية لإدارة الملفات والمشاريع مباشرة من المتصفح. 2. محرك إدارة الأدوات (Advanced Tool Schemas): يوفر النظام آلية لبناء وتجربة الـ Tools والـ Functions المخصصة، حيث يتم تعريفها برمجياً عبر Schemas دقيقة، مما يسمح للذكاء الاصطناعي بالتفاعل مع الأنظمة الخارجية بكفاءة عالية. 3. التحكم الفائق في الاستدلال (Inference Management): بفضل التكامل مع Cerebras API، يوفر النظام أسرع معدل لتوليد النصوص في العالم، مع واجهة تتيح التحكم في البارامترات التقنية للنموذج (Temperature, Top-P) لحظة بلحظة. 4. نظام إدارة التاريخ والذاكرة: يضم النظام (History Manager) متقدم يقوم بأرشفة المحادثات والتجارب بشكل منظم، مع إمكانية البحث والرجوع لأي جلسة سابقة بسهولة تامة. 5. الهندسة البرمجية: يعتمد المشروع على FastAPI في الخلفية لضمان أداء ثابت وسريع، مع واجهة أمامية مبنية باستخدام Vite لضمان خفة الوزن وسرعة التحميل. المهارات: Python, FastAPI, Cerebras Inference API, JavaScript (ES6+), Vite, CSS3/Glassmorphism, PrismJS (Syntax Highlighting), File Management Systems, Tool Schema Design, Full-Stack Development, AI Integration, Prompt Engineering Frameworks",
+    "description_en": "English description for Cerebras Studio: High-Speed AI Development & Inference Playground. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/cerebras_studio_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502311-cerebras-studio-high-speed-ai-development-inference-playground",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "al_taqwa_pos",
+    "title_ar": "Al-Taqwa Smart POS & Enterprise Retail Suite",
+    "title_en": "Al Taqwa Pos",
+    "description_ar": "منصة التقوى لإدارة التجزئة (Al-Taqwa POS) هي نظام مؤسسي متكامل (Enterprise-Grade) صُمم خصيصاً لرقمنة وإدارة العمليات التجارية الضخمة في قطاع التجزئة والسوبر ماركت. يمثل النظام حلًا برمجياً شاملاً يربط بين إدارة المبيعات اللحظية، التحكم الدقيق في المخزون، والعمليات اللوجستية المتقدمة في منصة واحدة موحدة. أبرز ميزات وخصائص المنصة: 1. الهندسة المعمارية المتقدمة (Clean Architecture): بني النظام باستخدام تقنية .NET 8 في الخلفية مع React 19 في الواجهة الأمامية، مما يضمن أداءً فائق السرعة واستقراراً تاماً حتى مع تزايد ضغط البيانات والعمليات، مع اتباع معايير هندسية صارمة تفصل بين منطق العمل والبيانات. 2. نظام نقطة البيع الذكي (Smart POS Terminal): واجهة مبيعات فائقة السرعة مصممة لتقليل زمن المعاملات، تدعم قارئ الباركود، الاختصارات السريعة (F1/F2)، ونظام \"تعليق الفاتورة\" المبتكر الذي يضمن عدم ضياع البيانات حتى عند انقطاع الاتصال المفاجئ أو تحديث الصفحة. 3. لوجستيات أمازون (Integrated Amazon Delivery Hub): محرك فريد مدمج لإدارة مناديب الشحن، يسمح بتسجيل السائقين، تتبع عُهد المناديب اليومية، احتساب المستحقات آلياً بناءً على عدد الشحنات (المستلمة/المرتجعة)، وتوريد المبالغ الصافية للخزنة بضغطة زر. 4. الإدارة المالية والمخزنية الشاملة: التحكم في المخزون: نظام تنبيهات ذكي للكميات المنخفضة والسالبة مع دعم تصدير كافة قوائم المنتجات إلى ملفات Excel. الموردين والمشتريات: نظام تتبع كامل لفواتير التوريد، الأرصدة الافتتاحية للموردين، وجدولة سداد الديون مع ربطها بحركة الخزنة. الخزنة والورديات: نظام رقابة مالي صارم يراقب حركة الأموال لكل وردية (Shift) على حدة، مع تقارير تفصيلية للإغلاق تشمل مبيعات الكاش والفيزا والعجز والزيادة. 5. الأمان والرقابة (RBAC): نظام صلاحيات دقيق يفصل بين مهام المشرف (Admin) والكاشير (Cashier)، مع توفير سجل حركات مالي غير قابل للتعديل لضمان أعلى مستويات الشفافية ومنع التلاعب.",
+    "description_en": "English description for Al-Taqwa Smart POS & Enterprise Retail Suite. Developed with enterprise standards.",
+    "category": "ai",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/al_taqwa_pos_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502310-al-taqwa-smart-pos-enterprise-retail-suite",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "premium_fullstack_developer_branding_portfolio",
+    "title_ar": "Premium Full-Stack Developer Branding & Portfolio",
+    "title_en": "Premium Fullstack Developer Branding Portfolio",
+    "description_ar": "بناء موقع تعريفي (Branding Platform) عالي الأداء، يدعم تعدد اللغات (العربية والإنجليزية) بشكل كامل مع تحكم ذكي في الاتجاهات (RTL/LTR) تم تطوير الموقع ليكون واجهة رقمية تعكس الاحترافية، مع التركيز على تجربة المستخدم (UX) من خلال حركات سلسة (Micro-interactions) واستجابة فائقة على جميع الشاشات. يضم نظام مراسلة مدمج وعرضاً احترافياً للمهارات التقنية والمشاريع. المهارات المستخدمة: Frontend: Next.js 15+, React 19, Tailwind CSS 4, Framer Motion. Logic: TypeScript, Next-Intl (Localization), Context API. Full-Stack Capabilities: Integration with Backend services, Responsive Design, Dark/Light Mode.",
+    "description_en": "English description for Premium Full-Stack Developer Branding & Portfolio. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "typescript"
+    ],
+    "images": [
+      "/projects/premium_fullstack_developer_branding_portfolio_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502299-premium-full-stack-developer-branding-portfolio",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "fullstack_enterprise_solution",
+    "title_ar": "نظام \"دار مكة\" المتكامل لإدارة الأكاديميات التعليمية (Full-Stack Enterprise Solution)",
+    "title_en": "Fullstack Enterprise Solution",
+    "description_ar": "نظام \"دار مكة\" المتكامل لإدارة الأكاديميات التعليمية (Full-Stack Enterprise Solution)",
+    "description_en": "English description for نظام \"دار مكة\" المتكامل لإدارة الأكاديميات التعليمية (Full-Stack Enterprise Solution). Developed with enterprise standards.",
+    "category": "enterprise",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/fullstack_enterprise_solution_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3502272-نظام-دار-مكة-المتكامل-لإدارة-الأكاديميات-التعليمية-full-stack-enterprise-solution",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "bi_analytics_dashboard",
+    "title_ar": "نظام تحليل البيانات الضخمة ولوحات ذكاء الأعمال (BI & Data Analytics Dashboard)",
+    "title_en": "Bi Analytics Dashboard",
+    "description_ar": "نظام تحليل البيانات الضخمة ولوحات ذكاء الأعمال (BI & Data Analytics Dashboard)",
+    "description_en": "English description for نظام تحليل البيانات الضخمة ولوحات ذكاء الأعمال (BI & Data Analytics Dashboard). Developed with enterprise standards.",
+    "category": "ai",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/bi_analytics_dashboard_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3485301-نظام-تحليل-البيانات-الضخمة-ولوحات-ذكاء-الأعمال-bi-data-analytics-dashboard",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "landing_page",
+    "title_ar": "صفحة هبوط (Landing Page) احترافية ثنائية اللغة | شركة درب المها - قطر",
+    "title_en": "Landing Page",
+    "description_ar": "صفحة هبوط (Landing Page) احترافية ثنائية اللغة | شركة درب المها - قطر",
+    "description_en": "English description for صفحة هبوط (Landing Page) احترافية ثنائية اللغة | شركة درب المها - قطر. Developed with enterprise standards.",
+    "category": "websites",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/landing_page_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3485299-صفحة-هبوط-landing-page-احترافية-ثنائية-اللغة-شركة-درب-المها-قطر",
+    "github": "https://github.com/adelfree2023-dev"
+  },
+  {
+    "key": "crazy_lister",
+    "title_ar": "Crazy Lister : Enterprise Amazon Automation & SP-API Hub",
+    "title_en": "Crazy Lister",
+    "description_ar": "هي أداة هندسية متقدمة مصممة خصيصاً لكبار البائعين على منصة Amazon (مصر، السعودية، الإمارات). النظام ليس مجرد برنامج لرفع المنتجات، بل هو \"مركز قيادة\" (Command Center) متكامل يعتمد على الربط الرسمي مع Amazon Selling Partner API (SP-API) لأتمتة العمليات التجارية المعقدة. أبرز ميزات وخصائص المنصة: 1. الربط البرمجي الرسمي (Official SP-API Integration): تم تطوير النظام باستخدام أحدث بروتوكولات أمازون، مما يضمن سرعة وأماناً تاماً في نقل البيانات، مع دعم كامل للـ Feeds Management وتتبع حالات الرفع (Listing Queue) لحظة بلحظة. 2. إدارة المتغيرات المعقدة (Advanced Variations Architecture): يدعم النظام بنية (Parent-Child) لربط المنتجات الأب والابن تلقائياً، مما يسهل عرض خيارات الألوان والمقاسات في صفحة واحدة على أمازون، وهو أمر يتطلب دقة برمجية عالية. 3. الذكاء الاصطناعي في خدمة المحتوى (AI Assistant Support): مدمج داخل النظام مساعد ذكي (Qwen AI) يساعد البائعين في كتابة أوصاف المنتجات (Descriptions) واختيار الكلمات المفتاحية (Keywords) المتوافقة مع SEO أمازون لزيادة المبيعات. 4. الرفع والتحكم الجماعي (Bulk Operations): يدعم محرك الرفع الجماعي عبر ملفات Excel، مع فحص تلقائي للقيود (Listing Restrictions) قبل الرفع لتجنب رفض المنتجات أو غلق الحسابات. 5. هندسة سطح المكتب الهجينة (Desktop Hybrid App): يجمع النظام بين سرعة تطبيقات الويب (React 19) وقوة تطبيقات سطح المكتب (Python FastAPI)، حيث يعمل كبرنامج مستقل على Windows مع تخزين بيانات محلي مشفر (Encrypted SQLite).",
+    "description_en": "English description for Crazy Lister : Enterprise Amazon Automation & SP-API Hub. Developed with enterprise standards.",
+    "category": "enterprise",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "images": [
+      "/projects/crazy_lister_1.png"
+    ],
+    "live": "https://mostaql.com/portfolio/3485293-crazy-lister-enterprise-amazon-automation-sp-api-hub",
+    "github": "https://github.com/adelfree2023-dev"
+  }
+]

@@ -45,98 +45,110 @@
     "more_projects": "Other Ventures",
     "items": {
       "crazy_lister": {
-        "name": "Crazy Lister v3.5",
-        "tagline": "Amazon SP-API Management System",
-        "description": "A full automation system that reduced data entry time by 100% and controlled over 362,000 EGP in sales. Completely eliminates manual workload via SP-API.",
+        "name": "Amazon SP-API Automation Command Center",
+        "tagline": "Amazon SP-API Automation Command Center",
+        "description": "هي أداة هندسية متقدمة مصممة خصيصاً لكبار البائعين على منصة Amazon (مصر، السعودية، الإمارات). النظام ليس مجرد برنامج لرفع المنتجات، بل هو \"مركز قيادة\" (Command Center) متكامل يعتمد على الربط الرسمي مع Amazon Selling Partner API (SP-API) لأتمتة العمليات التجارية المعقدة. أبرز ميزات وخصائص المنصة: 1. الربط البرمجي الرسمي (Official SP-API Integration): تم تطوير النظام باستخدام أحدث بروتوكولات أمازون، مما يضمن سرعة وأماناً تاماً في نقل البيانات، مع دعم كامل للـ Feeds Management وتتبع حالات الرفع (Listing Queue) لحظة بلحظة. 2. إدارة المتغيرات المعقدة (Advanced Variations Architecture): يدعم النظام بنية (Parent-Child) لربط المنتجات الأب والابن تلقائياً، مما يسهل عرض خيارات الألوان والمقاسات في صفحة واحدة على أمازون، وهو أمر يتطلب دقة برمجية عالية. 3. الذكاء الاصطناعي في خدمة المحتوى (AI Assistant Support): مدمج داخل النظام مساعد ذكي (Qwen AI) يساعد البائعين في كتابة أوصاف المنتجات (Descriptions) واختيار الكلمات المفتاحية (Keywords) المتوافقة مع SEO أمازون لزيادة المبيعات. 4. الرفع والتحكم الجماعي (Bulk Operations): يدعم محرك الرفع الجماعي عبر ملفات Excel، مع فحص تلقائي للقيود (Listing Restrictions) قبل الرفع لتجنب رفض المنتجات أو غلق الحسابات. 5. هندسة سطح المكتب الهجينة (Desktop Hybrid App): يجمع النظام بين سرعة تطبيقات الويب (React 19) وقوة تطبيقات سطح المكتب (Python FastAPI)، حيث يعمل كبرنامج مستقل على Windows مع تخزين بيانات محلي مشفر (Encrypted SQLite).",
         "features": [
-          "Live Sales Tracking (Stateless Sync)",
-          "Auto-listing to Amazon via SP-API",
-          "Parent-Child Product Variations",
-          "30+ Audited Technical Features",
-          "Excel Bulk Upload",
-          "AI Assistant (Qwen AI)",
-          "Detailed Reports & Dashboard"
+          "Official SP-API integration managing listings directly on Amazon seller hubs",
+          "Advanced variation support for parent-child variation listings",
+          "AI-powered content assistant optimizing listing text for Amazon SEO",
+          "Hybrid desktop architecture utilizing local encrypted SQLite database"
+        ],
+        "tags": [
+          "React 19",
+          "FastAPI",
+          "Python 3.12",
+          "Amazon SP-API",
+          "SQLite"
         ],
         "metric": {
           "value": "362,393 EGP",
           "label": "Monthly Sales Output"
-        },
-        "tags": ["React 19", "FastAPI", "Python 3.12", "Amazon SP-API", "SQLite", "PyWebView", "Playwright"]
+        }
       },
       "apex": {
-        "name": "Apex — 60sec.shop",
-        "tagline": "Enterprise E-Commerce Platform",
-        "description": "A full Monorepo built to S1-S15 enterprise security protocols. Contains 4 apps (API, Merchant Admin, Super Admin, Store), with complete tenant isolation, immutable audit logs, and Island Architecture.",
+        "name": "Enterprise E-Commerce Platform & Routing",
+        "tagline": "Enterprise E-Commerce Platform & Routing",
+        "description": "تصميم وبرمجة صفحة هبوط متعددة اللغات مع توجيه ذكي لموقع 60sec.shop",
         "features": [
-          "Monorepo Architecture with Turborepo",
-          "4 Fully Integrated Apps",
-          "Multi-tenant with Complete Isolation",
-          "S1-S15 Security Protocols",
-          "Immutable Audit Logs",
-          "PostgreSQL + Redis + Docker",
-          "CI/CD via GitLab"
+          "Comprehensive admin dashboard with security features",
+          "High performance and fully responsive mobile layout"
         ],
-        "tags": ["NestJS", "Turborepo", "Bun", "Drizzle ORM", "PostgreSQL", "Redis", "Docker"]
+        "tags": [
+          "React",
+          "TypeScript",
+          "Next.js"
+        ]
       },
       "commander_os": {
-        "name": "Commander OS",
-        "tagline": "Enterprise ERP & Sales System",
-        "description": "Comprehensive enterprise resource planning (ERP) system tracking Sales, Employees, Attendance, Customers, Purchasing, Suppliers, and Inventory. Tracks real production numbers (collections reaching 544,560 EGP).",
+        "name": "Financial OS & ERP Management Suite",
+        "tagline": "Financial OS & ERP Management Suite",
+        "description": "نظام مالي متطور تم بناؤه ليكون أداة إدارة مركزية (Financial OS) للعمليات التجارية اليومية. يتميز النظام بالقدرة على تتبع التحصيلات، المشتريات، وتوريدات أمازون بدقة متناهية، مع تقديم تقارير تحليلية فورية. تم تصميم النظام كـ PWA (Progressive Web App) ليعمل بكفاءة عالية على الأجهزة المكتبية والمحمولة، مع دعم كامل للـ Dark Mode لتجربة مستخدم مريحة. 2. أبرز المميزات التقنية: لوحة تحكم ذكية (Smart Dashboard): عرض فوري لإجمالي التحصيلات، التوريدات، وصافي الربح مع تحديث تلقائي للبيانات. نظام التحليلات المتقدمة (Advanced Analytics): رسوم بيانية تفاعلية لتحليل توزيع المصروفات وأداء التحصيل الأسبوعي. المزامنة السحابية (Cloud Sync): تكامل مبتكر مع GitHub API لأرشفة الفواتير والمزامنة التلقائية للبيانات. تقارير احترافية: إمكانية تصدير التقارير المالية التفصيلية بصيغ PDF (بتنسيق A4 للطباعة) و Excel (CSV). إدارة الأرشفة: نظام لرفع وأرشفة فواتير المشتريات سحابياً للرجوع إليها في أي وقت. 3. التقنيات المستخدمة (Stack): Frontend: HTML5, CSS3 (Modern Flex/Grid Layout), Vanilla JavaScript (ES6+). PWA: Service Workers & Manifest.json (للعمل بدون إنترنت). Integration: GitHub REST API (للتخزين والمزامنة). Data Handling: JSON, LocalStorage, CSV Export logic.",
         "features": [
-          "Complete ERP System (7 Modules)",
-          "Sales & Collections Tracking",
-          "Attendance Management",
-          "Excel & PDF Export",
-          "Modern UI with Dark Mode",
-          "Data Sync & Analytics",
-          "Fast Record Search"
+          "Advanced financial system tracking sales, purchasing, and collections",
+          "Secure backup and sync with GitHub REST API for invoice storage",
+          "Instant PDF (A4 format) and Excel CSV report exports",
+          "Full PWA support enabling offline operations without active internet connection"
         ],
-        "tags": ["React", "ERP", "Sales Management", "Finance"]
+        "tags": [
+          "React",
+          "PWA",
+          "Service Workers",
+          "GitHub REST API"
+        ],
+        "metric": {
+          "value": "544,560 EGP",
+          "label": "Verified Output Volume"
+        }
       },
       "cerebras_studio": {
-        "name": "Cerebras Dev Studio",
-        "tagline": "AI-Powered Development Environment",
-        "description": "A custom IDE operating as an ultra-fast AI coding assistant. Manages a pool of encrypted API keys with automatic rotation and sliding window rate limiting. Supports 3 permission modes and full VS Code integration.",
+        "name": "Cerebras AI Inference IDE & Workspace",
+        "tagline": "Cerebras AI Inference IDE & Workspace",
+        "description": "منصة Cerebras Studio هي بيئة تطوير تفاعلية صُممت خصيصاً للاستفادة من السرعة الاستثنائية لمحركات Cerebras. النظام يقدم تجربة مستخدم تشبه بيئات البرمجة (IDE) لكنها مخصصة للتحاور مع النماذج اللغوية الضخمة وإدارتها برمجياً، مما يجعله الأداة المثالية للمطورين الذين يحتاجون لسرعة استجابة فائقة. أبرز ميزات وخصائص المنصة: 1. بيئة عمل تفاعلية (Intelligent Workspace): واجهة مستخدم حديثة تدعم عرض الكود البرمجي (Syntax Highlighting) بشكل احترافي، مع لوحات جانبية لإدارة الملفات والمشاريع مباشرة من المتصفح. 2. محرك إدارة الأدوات (Advanced Tool Schemas): يوفر النظام آلية لبناء وتجربة الـ Tools والـ Functions المخصصة، حيث يتم تعريفها برمجياً عبر Schemas دقيقة، مما يسمح للذكاء الاصطناعي بالتفاعل مع الأنظمة الخارجية بكفاءة عالية. 3. التحكم الفائق في الاستدلال (Inference Management): بفضل التكامل مع Cerebras API، يوفر النظام أسرع معدل لتوليد النصوص في العالم، مع واجهة تتيح التحكم في البارامترات التقنية للنموذج (Temperature, Top-P) لحظة بلحظة. 4. نظام إدارة التاريخ والذاكرة: يضم النظام (History Manager) متقدم يقوم بأرشفة المحادثات والتجارب بشكل منظم، مع إمكانية البحث والرجوع لأي جلسة سابقة بسهولة تامة. 5. الهندسة البرمجية: يعتمد المشروع على FastAPI في الخلفية لضمان أداء ثابت وسريع، مع واجهة أمامية مبنية باستخدام Vite لضمان خفة الوزن وسرعة التحميل. المهارات: Python, FastAPI, Cerebras Inference API, JavaScript (ES6+), Vite, CSS3/Glassmorphism, PrismJS (Syntax Highlighting), File Management Systems, Tool Schema Design, Full-Stack Development, AI Integration, Prompt Engineering Frameworks",
         "features": [
-          "Fernet Encrypted Key Storage",
-          "Auto-rotation with Rate Limiting",
-          "3 Modes: Read-only / Guided / Autopilot",
-          "Full Streaming Support",
-          "Project File Browser",
-          "VS Code Integration",
-          "Syntax Highlighting via Prism.js"
+          "Intelligent interactive IDE playground for large language model testing",
+          "Full streaming output supporting extremely rapid token generation",
+          "Dynamic tool schema design workspace to declare and test functions",
+          "Session history manager with search query indexes"
         ],
-        "tags": ["FastAPI", "Python", "JavaScript", "Cerebras AI", "Cryptography"]
+        "tags": [
+          "FastAPI",
+          "Python",
+          "Cerebras Inference API",
+          "Vite",
+          "PrismJS"
+        ]
       },
       "darb_almaha": {
-        "name": "DarbAlmaha — Qatar",
-        "tagline": "Bilingual Business Landing Page",
-        "description": "Professional landing page with full SEO standards for a Qatar-based cleaning company. Powered by 4 advertising platforms (Facebook, TikTok, Snapchat, GA4), with 5-type Schema.org structured data and advanced CSP security.",
+        "name": "Landing Page",
+        "tagline": "Landing Page",
+        "description": "صفحة هبوط (Landing Page) احترافية ثنائية اللغة | شركة درب المها - قطر",
         "features": [
-          "Bilingual AR/EN Without Page Reload",
-          "4 Ad Platform Tracking",
-          "5-Type Schema.org Markup",
-          "WebP + Lazy Loading",
-          "CSP + Security Headers",
-          "Phone & WhatsApp Click Tracking",
-          "Fully Optimized SEO"
+          "Comprehensive admin dashboard with security features",
+          "High performance and fully responsive mobile layout"
         ],
-        "tags": ["HTML5", "CSS3", "JavaScript", "SEO", "Google Analytics", "Facebook Pixel"]
+        "tags": [
+          "React",
+          "TypeScript",
+          "Next.js"
+        ]
       },
       "ai_proxy": {
-        "name": "AI Key Proxy",
-        "tagline": "Encrypted API Key Management Server",
-        "description": "A FastAPI server acting as an encrypted proxy for Cerebras AI. Manages an AES-256 encrypted key pool with sliding window rate control and 3 automatic retry attempts on failure.",
+        "name": "AI API Key Rotator & Load balancer Server",
+        "tagline": "AI API Key Rotator & Load balancer Server",
+        "description": "Cerebras Proxy Pro (نظام إدارة أحمال الـ AI وتدوير المفاتيح)",
         "features": [
-          "AES-256 Fernet Encryption",
-          "Sliding Window RPM/TPM Control",
-          "Auto-rotation on 429 Errors",
-          "Full Streaming Support",
-          "Key Status Dashboard",
-          "3 Automatic Retries",
-          "Detailed Logging"
+          "Secure proxy server managing AI load and query distributions",
+          "AES-256 Fernet cryptography protecting API keys in storage",
+          "Smart rate-limiting and auto-rotation of keys on 429 error responses",
+          "Real-time usage dashboard monitoring key status and response latency"
         ],
-        "tags": ["FastAPI", "Python", "Cryptography", "httpx", "Async"]
+        "tags": [
+          "FastAPI",
+          "Python",
+          "AES-256",
+          "Rate Limiting Proxy"
+        ]
       },
       "video_downloader": {
         "name": "Queue Downloader",
@@ -151,7 +163,13 @@
           "Post-Download Actions (Shutdown/Sleep)",
           "Custom File Renaming"
         ],
-        "tags": ["Python", "Tkinter", "yt-dlp", "ffmpeg", "Threading"]
+        "tags": [
+          "Python",
+          "Tkinter",
+          "yt-dlp",
+          "ffmpeg",
+          "Threading"
+        ]
       },
       "alyusr": {
         "name": "Al Yusr System",
@@ -166,22 +184,29 @@
           "Built with Vite for Performance",
           "Full Arabic RTL Design"
         ],
-        "tags": ["React", "TypeScript", "Vite", "Enterprise", "CSS"]
+        "tags": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "Enterprise",
+          "CSS"
+        ]
       },
       "kitvet": {
-        "name": "Kitvet",
-        "tagline": "Premium Domain Sales Page",
-        "description": "A high-conversion professional landing page displaying the Kitvet.com domain for sale. Features a modern design (High-authority asset for sale) and rapid integration with direct broker chat.",
+        "name": "Premium Veterinary Domain Sales Page",
+        "tagline": "Premium Veterinary Domain Sales Page",
+        "description": "تصميم صفحة هبوط استراتيجية لبيع نطاق KitVet com (Veterinary Tech)",
         "features": [
-          "High-Conversion Sales Design",
-          "Live Broker Chat Support",
-          "Modern Interface & Premium Colors",
-          "Ultra-Fast Loading",
-          "Responsive Design",
-          "SEO Ready",
-          "Direct WhatsApp Link"
+          "High-converting landing page showcasing kitvet.com premium domain asset",
+          "Countdown timer and investment highlights to attract potential buyers",
+          "Direct WhatsApp action linking to domain broker chat",
+          "Lightweight code loading 100% on Google Web Vitals mobile benchmark"
         ],
-        "tags": ["HTML5", "CSS3", "JavaScript", "Landing Page"]
+        "tags": [
+          "Tailwind CSS",
+          "Framer Motion",
+          "Landing Page Design"
+        ]
       },
       "mounir_data_gen": {
         "name": "Mounir Data Gen",
@@ -195,8 +220,243 @@
           "High Performance Seeding",
           "Nested JSON Structures Support"
         ],
-        "tags": ["Python", "Data Engineering", "Automation", "Testing"]
+        "tags": [
+          "Python",
+          "Data Engineering",
+          "Automation",
+          "Testing"
+        ]
+      },
+      "municipal_lease_db": {
+        "name": "Municipal Lease Database System",
+        "tagline": "Municipal Lease Database System",
+        "description": "هندسة وتصميم قاعدة بيانات احترافية لنظام عقود الإيجار البلدية",
+        "features": [
+          "Database architecture designed in 3NF to eliminate redundancy",
+          "Developed complex SQL queries and statistical reporting for municipal leasing",
+          "Optimized query performance by indexing large-scale tables, boosting speed by 80%",
+          "Comprehensive audit logs and transaction tracking for secure financial auditing"
+        ],
+        "tags": [
+          "PostgreSQL",
+          "SQL Server",
+          "Database Design",
+          "Performance Tuning"
+        ]
+      },
+      "xp_black_dashboard": {
+        "name": "XP Black Gaming Automation & Admin Hub",
+        "tagline": "XP Black Gaming Automation & Admin Hub",
+        "description": "تصميم وتطوير لوحة تحكم XP Black لإدارة الحسابات وأتمتة الألعاب",
+        "features": [
+          "Interactive dashboard to manage accounts and gaming automations in a single viewport",
+          "Integrated automation core to execute repetitive in-game tasks automatically",
+          "Real-time notifications engine for instant updates across the workspace",
+          "Professional dark mode UI customized for the gamer and developer community"
+        ],
+        "tags": [
+          "React",
+          "Node.js",
+          "Electron",
+          "Game Automation API"
+        ]
+      },
+      "smart_credit_analysis": {
+        "name": "Smart Credit Analysis & Debt Settlements",
+        "tagline": "Smart Credit Analysis & Debt Settlements",
+        "description": "تصميم وتطوير منصة ذكية لتحليل الجدارة الائتمانية وسداد المديونيات",
+        "features": [
+          "Smart credit scoring engine evaluating financial risk for borrowers",
+          "Comprehensive dashboard tracking creditworthiness indexes and debts",
+          "Direct payment gateway integration for automated and scheduled settlements",
+          "Instant PDF financial report generation with key KPIs"
+        ],
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Python AI",
+          "Financial Risk Analysis"
+        ]
+      },
+      "children_care": {
+        "name": "Visual Identity & Portal for Children Care",
+        "tagline": "Visual Identity & Portal for Children Care",
+        "description": "تصميم هوية بصرية متكاملة لمشروع \"أطفالنا\" لرعاية وتنمية الأطفال",
+        "features": [
+          "Complete visual branding identity tailored for childcare activities",
+          "Custom child-friendly illustrations and assets",
+          "Fully responsive website interface aligned with brand guidelines",
+          "Harmonious custom color palettes representing safety and care"
+        ],
+        "tags": [
+          "UI/UX Design",
+          "Branding",
+          "Illustrator",
+          "Tailwind CSS"
+        ]
+      },
+      "ahla_makan": {
+        "name": "Bilingual Housemaid Recruitment Platform",
+        "tagline": "Bilingual Housemaid Recruitment Platform",
+        "description": "تصميم وتطوير موقع إلكتروني لمكتب \"أحلى مكان\" للاستقدام والخدمات المنزلية",
+        "features": [
+          "Full SEO-optimized corporate showcase landing page",
+          "Comprehensive recruitment form and CV categorization engine",
+          "Simple admin dashboard to review applicant requests and respond to clients",
+          "Direct action buttons connecting to WhatsApp, phone calls, and email"
+        ],
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "SEO Optimization"
+        ]
+      },
+      "ard_al_diafa": {
+        "name": "Qatari Home Services Interactive Portal",
+        "tagline": "Qatari Home Services Interactive Portal",
+        "description": "تصميم وتطوير موقع تفاعلي لشركة \"أرض الضيافة\" للخدمات المنزلية بقطر",
+        "features": [
+          "Fully interactive web platform displaying Qatari home cleaning services",
+          "Flexible scheduling and booking engine connecting coordinators and drivers",
+          "Direct user reviews and ratings system after service completion",
+          "High-performance responsive loading tailored for mobile viewports"
+        ],
+        "tags": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Dynamic Forms"
+        ]
+      },
+      "virtual_classrooms": {
+        "name": "Bilingual Virtual Classrooms & Streams Hub",
+        "tagline": "Bilingual Virtual Classrooms & Streams Hub",
+        "description": "النظام المتكامل للفصول الافتراضية التفاعلية وإدارة البث المباشر",
+        "features": [
+          "Comprehensive admin dashboard with security features",
+          "High performance and fully responsive mobile layout"
+        ],
+        "tags": [
+          "React",
+          "TypeScript",
+          "Next.js"
+        ]
+      },
+      "whatsapp_saas_marketing": {
+        "name": "AI WhatsApp SaaS Bulk Marketing Platform",
+        "tagline": "AI WhatsApp SaaS Bulk Marketing Platform",
+        "description": "منصة SaaS متكاملة لأتمتة تسويق الواتساب والاتصالات بالذكاء الاصطناعي",
+        "features": [
+          "High-performance WhatsApp campaigns engine sending bulk automated broadcasts",
+          "Smart AI-driven conversational chatbot powered by Large Language Models",
+          "Advanced contacts management, group listing, and number validator",
+          "Instant delivery analytics and performance reporting dashboard"
+        ],
+        "tags": [
+          "Node.js",
+          "WhatsApp Web API",
+          "FastAPI",
+          "React",
+          "AI LLM Integration"
+        ]
+      },
+      "safaric_youth": {
+        "name": "National Unified Portal for Youth Initiatives",
+        "tagline": "National Unified Portal for Youth Initiatives",
+        "description": "سفيرك الرقمي: المنصة الوطنية الموحدة للمبادرات الشبابية والإدارة المؤسسية",
+        "features": [
+          "National centralized unified platform for youth initiative management",
+          "Integrated registration and official verification workflow for initiatives",
+          "Multi-role dashboards (Admin, Coordinator, Initiative Leader, Visitor)",
+          "Enterprise-grade security and robust document storage policies"
+        ],
+        "tags": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Prisma ORM",
+          "PostgreSQL"
+        ]
+      },
+      "al_taqwa_pos": {
+        "name": "Enterprise Retail POS & Amazon Logistics Hub",
+        "tagline": "Enterprise Retail POS & Amazon Logistics Hub",
+        "description": "منصة التقوى لإدارة التجزئة (Al-Taqwa POS) هي نظام مؤسسي متكامل (Enterprise-Grade) صُمم خصيصاً لرقمنة وإدارة العمليات التجارية الضخمة في قطاع التجزئة والسوبر ماركت. يمثل النظام حلًا برمجياً شاملاً يربط بين إدارة المبيعات اللحظية، التحكم الدقيق في المخزون، والعمليات اللوجستية المتقدمة في منصة واحدة موحدة. أبرز ميزات وخصائص المنصة: 1. الهندسة المعمارية المتقدمة (Clean Architecture): بني النظام باستخدام تقنية .NET 8 في الخلفية مع React 19 في الواجهة الأمامية، مما يضمن أداءً فائق السرعة واستقراراً تاماً حتى مع تزايد ضغط البيانات والعمليات، مع اتباع معايير هندسية صارمة تفصل بين منطق العمل والبيانات. 2. نظام نقطة البيع الذكي (Smart POS Terminal): واجهة مبيعات فائقة السرعة مصممة لتقليل زمن المعاملات، تدعم قارئ الباركود، الاختصارات السريعة (F1/F2)، ونظام \"تعليق الفاتورة\" المبتكر الذي يضمن عدم ضياع البيانات حتى عند انقطاع الاتصال المفاجئ أو تحديث الصفحة. 3. لوجستيات أمازون (Integrated Amazon Delivery Hub): محرك فريد مدمج لإدارة مناديب الشحن، يسمح بتسجيل السائقين، تتبع عُهد المناديب اليومية، احتساب المستحقات آلياً بناءً على عدد الشحنات (المستلمة/المرتجعة)، وتوريد المبالغ الصافية للخزنة بضغطة زر. 4. الإدارة المالية والمخزنية الشاملة: التحكم في المخزون: نظام تنبيهات ذكي للكميات المنخفضة والسالبة مع دعم تصدير كافة قوائم المنتجات إلى ملفات Excel. الموردين والمشتريات: نظام تتبع كامل لفواتير التوريد، الأرصدة الافتتاحية للموردين، وجدولة سداد الديون مع ربطها بحركة الخزنة. الخزنة والورديات: نظام رقابة مالي صارم يراقب حركة الأموال لكل وردية (Shift) على حدة، مع تقارير تفصيلية للإغلاق تشمل مبيعات الكاش والفيزا والعجز والزيادة. 5. الأمان والرقابة (RBAC): نظام صلاحيات دقيق يفصل بين مهام المشرف (Admin) والكاشير (Cashier)، مع توفير سجل حركات مالي غير قابل للتعديل لضمان أعلى مستويات الشفافية ومنع التلاعب.",
+        "features": [
+          "Ultra-fast POS checkout interface supporting barcode scanners",
+          "Integrated Amazon Delivery Hub to manage driver custody and shipments",
+          "Detailed supplier records, opening balances, and debt scheduling",
+          "Shift control system auditing cashier registers, cash/visa transactions, and deficits"
+        ],
+        "tags": [
+          ".NET 8",
+          "C#",
+          "React 19",
+          "PostgreSQL",
+          "Amazon Delivery Hub"
+        ]
+      },
+      "premium_fullstack_developer_branding_portfolio": {
+        "name": "Premium Developer Branding Platform",
+        "tagline": "Premium Developer Branding Platform",
+        "description": "بناء موقع تعريفي (Branding Platform) عالي الأداء، يدعم تعدد اللغات (العربية والإنجليزية) بشكل كامل مع تحكم ذكي في الاتجاهات (RTL/LTR) تم تطوير الموقع ليكون واجهة رقمية تعكس الاحترافية، مع التركيز على تجربة المستخدم (UX) من خلال حركات سلسة (Micro-interactions) واستجابة فائقة على جميع الشاشات. يضم نظام مراسلة مدمج وعرضاً احترافياً للمهارات التقنية والمشاريع. المهارات المستخدمة: Frontend: Next.js 15+, React 19, Tailwind CSS 4, Framer Motion. Logic: TypeScript, Next-Intl (Localization), Context API. Full-Stack Capabilities: Integration with Backend services, Responsive Design, Dark/Light Mode.",
+        "features": [
+          "Premium developer portfolio showcase built with Next.js",
+          "Full bilingual layout with RTL/LTR responsive direction mapping",
+          "Subtle visual micro-interactions improving visitor retention",
+          "Secure contact form protected against spam and malicious inputs"
+        ],
+        "tags": [
+          "Next.js 15",
+          "React 19",
+          "Tailwind CSS 4",
+          "Framer Motion",
+          "Next-Intl"
+        ]
+      },
+      "fullstack_enterprise_solution": {
+        "name": "Dar Makkah School & Academy ERP",
+        "tagline": "Dar Makkah School & Academy ERP",
+        "description": "نظام \"دار مكة\" المتكامل لإدارة الأكاديميات التعليمية (Full-Stack Enterprise Solution)",
+        "features": [
+          "Enterprise school management system (students, classes, scheduling)",
+          "Financial module tracking subscription fees, cash flow, and payroll",
+          "Multi-tenant interface for managers, teachers, students, and parents",
+          "Online examination system with auto-grading features"
+        ],
+        "tags": [
+          "React",
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Education ERP"
+        ]
+      },
+      "bi_analytics_dashboard": {
+        "name": "Big Data BI & Analytics Dashboard",
+        "tagline": "Big Data BI & Analytics Dashboard",
+        "description": "نظام تحليل البيانات الضخمة ولوحات ذكاء الأعمال (BI & Data Analytics Dashboard)",
+        "features": [
+          "Interactive BI dashboard displaying company performance and sales metrics",
+          "Big Data analytics engine processing thousands of records instantly",
+          "High-end charts and reporting for business decision makers",
+          "Secure data warehousing sync with database sources"
+        ],
+        "tags": [
+          "Python",
+          "Pandas",
+          "React",
+          "Recharts",
+          "Data Warehousing"
+        ]
       }
+    },
+    "categories": {
+      "enterprise": "Enterprise Systems",
+      "ai": "AI & Automation",
+      "saas": "SaaS & Web Apps",
+      "websites": "Websites & Landing Pages"
     }
   },
   "Skills": {
